@@ -1,0 +1,173 @@
+.health_large_main{
+    position: sticky;
+    top: 0;
+    z-index: 7;
+    width: 100%;
+    min-width: 978px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    background-color: #2874f0;
+}
+.left_blank_div,.right_blank_div{
+    height: 100%;
+    min-width: 124px;
+}
+.health_bar{
+    display: flex;
+    align-items: center;
+    max-width: 1248px;
+    width: 100%;
+    height: 100%;
+}
+.health_filpkart_img{
+    width: 75px;
+}
+.health_logo_text{
+    font-size:11px ;
+    font-family:var(--int-semi);
+    color: #f0f0f0;
+    margin-top: -1px;
+    font-style: italic;
+}
+.health_plus{
+    font-size:11px;
+    font-family:var(--int-semi) ;
+    color: #ffe500;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-right: 2px;
+}
+.health_plus_img{
+    width: 10px;
+}
+.health_filkart_div{
+    display: flex;
+    flex-direction: column;
+}
+.health_filpkart_main{
+    min-width: 137px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.health_search_field{
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    min-width: 304px;
+    width: calc(100% - 540px);
+    margin: 0 auto 0 12px;
+    align-items: center; 
+}
+.health_search_form{
+    display: inline-block;
+    box-shadow: 0 2px 4px 0;
+    width: 100%;
+    height: 35px;
+    max-width: 564px;
+}
+.health_search_div{
+   display: flex;
+   justify-content: space-between;
+   border-radius: 2px;
+   background-color: #fff; 
+}
+.health_search_input{
+    padding: 0 16px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    height: 36px;
+    width: 100%;
+}
+.health_search_btn{
+    border: 1px solid #fff;
+    background-color: #fff;
+    height: 36px;
+    width: 44px;
+    cursor: pointer;
+    padding: 4px 12px 0 8px;
+}
+.health_search_logo{
+    width: 20px;
+    height: 20px;
+}
+.health_login{
+    display: flex;
+    align-items: center;
+    min-width: 112px;
+    max-width: 150px;
+    margin: 0 20px;
+}
+.health_login_div{
+    height: 100%;
+}
+.health_login_text{
+    color: #2874f0;
+    font-weight: 600;
+    background-color: #fff;
+    cursor: pointer;
+    padding: 5px 40px;
+    border: 1px solid #dbdbdb;
+    font-family:  var(--int-semi);
+}
+.health_become_seller{
+    margin: 0 20px;
+    max-width: 150px;
+    display: flex;
+    justify-content: flex-end;
+}
+.health_seller_text{
+    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    font-weight: 600;
+    color: #fff;
+    font-family:  var(--int-semi);
+    white-space: nowrap;
+}
+.health_more{
+    display: flex;
+    margin: 0 20px;
+    max-width: 150px;
+    justify-content: center;
+    align-items: center;
+}
+.health_more_text{
+    max-width: 108px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    font-weight: 600;
+    color: #fff;
+    font-family:  var(--int-semi);
+}
+.health_more_img{
+    display: flex;
+    margin: 1px 0 0 8px;
+    width: 4.7px;
+    height: 8px;
+    transform: rotate(270deg);
+}
+.health_cart{
+    margin: 0 20px;
+    max-width: 150px;
+}
+.health_cart_div{
+    display: flex;
+    align-items: center;
+}
+.health_cart_img{
+    width: 16px;
+    height: 16px;
+    margin: 0 8px;
+}
+.health_cart_text{
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    font-weight: 600;
+    color: #fff;
+    font-family:var(--int-semi);
+}

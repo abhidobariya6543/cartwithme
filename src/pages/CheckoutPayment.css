@@ -1,0 +1,479 @@
+.checkout_payment_main {
+    background-color: #f1f3f6;
+    min-height: 100vh;
+    padding-bottom: 20px;
+}
+
+/* Header */
+.payment_header {
+    background: white;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e0e0e0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.back_btn {
+    background: none;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.header_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.step_indicator {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 2px;
+}
+
+.page_title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    color: #212121;
+}
+
+.secure_badge {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+    color: #00a651;
+}
+
+.secure_badge img {
+    width: 12px;
+    height: 12px;
+}
+
+/* Total Amount Section */
+.total_amount_section {
+    background: #e3f2fd;
+    padding: 16px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.total_amount_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.amount {
+    font-size: 18px;
+    font-weight: 600;
+    color: #212121;
+}
+
+/* Payment Offers */
+.payment_offers {
+    background: #e8f5e8;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.offer_banner {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.offer_banner span:first-child {
+    font-size: 14px;
+    font-weight: 600;
+    color: #00a651;
+}
+
+.claim_text {
+    font-size: 12px;
+    color: #00a651;
+}
+
+.offer_icons {
+    display: flex;
+    gap: 8px;
+}
+
+.offer_icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+/* Payment Methods */
+.payment_methods {
+    background: white;
+    margin: 16px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.payment_method_section {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.payment_method_section:last-child {
+    border-bottom: none;
+}
+
+.payment_method_header {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.payment_method_header:hover {
+    background: #f8f9fa;
+}
+
+.payment_method_header.selected {
+    background: #f0f7ff;
+    border-left: 4px solid #2874f0;
+}
+
+.method_info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex: 1;
+}
+
+.method_icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.method_details {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.method_name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #212121;
+}
+
+.method_description {
+    font-size: 12px;
+    color: #666;
+}
+
+.method_offers {
+    font-size: 12px;
+    color: #00a651;
+    font-weight: 500;
+}
+
+.offer_count {
+    font-size: 12px;
+    color: #00a651;
+}
+
+.expand_arrow {
+    font-size: 12px;
+    color: #666;
+    transition: transform 0.3s ease;
+}
+
+.expand_arrow.expanded {
+    transform: rotate(180deg);
+}
+
+/* Payment Details Section */
+.payment_details_section {
+    padding: 16px;
+    background: #f8f9fa;
+    border-top: 1px solid #e0e0e0;
+}
+
+/* UPI Section */
+.upi_section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.upi_input_group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.upi_input_group label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #212121;
+}
+
+.upi_input {
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #212121;
+}
+
+.upi_input:focus {
+    outline: none;
+    border-color: #2874f0;
+    box-shadow: 0 0 0 2px rgba(40, 116, 240, 0.1);
+}
+
+.upi_actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.how_to_find_btn {
+    background: none;
+    border: none;
+    color: #2874f0;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.verify_btn {
+    background: #2874f0;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* Card, EMI, Net Banking Sections */
+.card_section,
+.emi_section,
+.netbanking_section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card_section p,
+.emi_section p,
+.netbanking_section p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background: white;
+    border-radius: 4px;
+    border: 1px dashed #e0e0e0;
+}
+
+/* Pay Button */
+.pay_button {
+    width: 100%;
+    background: #666;
+    color: white;
+    border: none;
+    padding: 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+.pay_button:hover {
+    background: #555;
+}
+
+/* Gift Card Section */
+.gift_card_section {
+    padding: 16px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.gift_card_header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.gift_icon {
+    width: 20px;
+    height: 20px;
+}
+
+.gift_card_header span {
+    flex: 1;
+    font-size: 14px;
+    color: #212121;
+}
+
+.add_gift_card_btn {
+    background: none;
+    border: 1px solid #2874f0;
+    color: #2874f0;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* Cash on Delivery Section */
+.cod_section {
+    padding: 16px;
+}
+
+.cod_header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.cod_icon {
+    width: 20px;
+    height: 20px;
+}
+
+.cod_header span:first-of-type {
+    flex: 1;
+    font-size: 14px;
+    color: #212121;
+}
+
+.unavailable_badge {
+    background: #f8f9fa;
+    color: #666;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    border: 1px solid #e0e0e0;
+}
+
+/* Customer Message */
+.customer_message {
+    background: white;
+    margin: 16px;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.message_text {
+    font-size: 14px;
+    color: #666;
+}
+
+.smiley_icon {
+    font-size: 24px;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .payment_header {
+        padding: 8px 12px;
+    }
+    
+    .payment_methods {
+        margin: 8px;
+    }
+    
+    .payment_method_header {
+        padding: 12px;
+    }
+    
+    .payment_details_section {
+        padding: 12px;
+    }
+    
+    .customer_message {
+        margin: 8px;
+        padding: 16px;
+    }
+    
+    .upi_actions {
+        flex-direction: column;
+        gap: 8px;
+        align-items: stretch;
+    }
+    
+    .how_to_find_btn,
+    .verify_btn {
+        width: 100%;
+        padding: 8px;
+    }
+}
+
+/* Animation for expanding sections */
+.payment_details_section {
+    animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        max-height: 0;
+    }
+    to {
+        opacity: 1;
+        max-height: 200px;
+    }
+}
+
+/* Hover effects */
+.payment_method_header:hover .method_name {
+    color: #2874f0;
+}
+
+.how_to_find_btn:hover,
+.add_gift_card_btn:hover {
+    opacity: 0.8;
+}
+
+.verify_btn:hover {
+    background: #1e5bb8;
+}
+
+/* Focus states */
+.upi_input:focus {
+    animation: none;
+}
+
+/* Loading state for payment processing */
+.pay_button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.pay_button:disabled:hover {
+    background: #ccc;
+}

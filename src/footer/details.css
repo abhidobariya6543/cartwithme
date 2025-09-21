@@ -1,0 +1,26 @@
+.details_main{
+    display: none;
+}
+@media screen and (min-width:1024px){
+.details_main{
+    display: block;
+    color: #878787;
+    background-color: #f5f5f5;
+}
+.details_main .details_hddiv{
+    padding: 30px;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: var(--int-regu);
+}
+.details_main .details_hddiv h1{
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: var(--int-regu);
+}
+.details_main .details_hddiv h2{
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family: var(--int-regu);
+}
+}

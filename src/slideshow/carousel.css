@@ -1,0 +1,240 @@
+.carouselTab-img{
+    display: none;
+}
+.carouselLab-img{
+    display: none;
+}
+.carousel-img{
+    display: flex;
+}
+.carouselLarge-img{
+        display: none;
+}
+.carousel-headimg{
+    display: block;
+}
+.carouselTabhead-img{
+    display: none;
+}
+.carouselLabhead-img{
+    display: none;
+}
+.carouselLargehead-img{
+    display: none;
+}
+.carousel-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 12px;
+    
+}
+.carousel-subcontainer{
+    display: flex;
+    justify-content: center;
+}
+.carousel-head{
+    background-color: #ffffff;
+}
+
+.carousel-sbhead{
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    /* justify-content: center; */
+     position: relative;
+     align-items: center;
+        
+}
+.carousel{
+    
+    width: 100%;
+    height: auto;
+    margin: 0 15px;
+    overflow-x: hidden; 
+   
+    
+    
+}
+.carousel-track {
+  padding-top: 0px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.slide {
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+
+.indicators{
+    /* display: flex; */
+   /* position: absolute; */
+   /* padding-top: 8px;  */
+   padding-bottom: 12px;
+   justify-content: center;
+   background-color: #ffffff;
+}
+.indicator{
+    position: relative;
+    background-color: #e1dcdc;
+    height: 4px;
+    width: 48px;
+    border-radius: 2px;
+    border: none;
+    margin: 0 4px;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+.indicator::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background-color: black;
+    
+}
+.indicator.active::before{
+    width: 100%;
+    transition:3s linear;
+}
+
+
+
+.indicator_notactive{
+    background-color: #e1dcdc;
+    width: 12px;
+}
+@media screen and (min-width:768px){
+    .carousel-img{
+        display: none;
+    }
+    .carouselLab-img{
+        display: none;
+    }
+    .carouselTab-img{
+        display: flex;
+    }
+    .carousel-headimg{
+        display: none;
+    }
+    .carouselTabhead-img{
+        display: block;
+    }
+    
+}
+
+@media screen and (min-width:1024px) {
+    .carouselTab-img{
+        display: none;
+    }
+    .carouselLab-img{
+        display: flex;
+    }
+    .carouselTabhead-img{
+        display: none;
+    }
+    .carouselLabhead-img{
+        display: block;
+    }
+    .carousel{
+        margin: 0;
+        height: 100%;
+    }
+    .slide{
+        border-radius: 0px;
+    }
+    .carousel-container{
+        margin-bottom: 16px;
+        padding-bottom: 16px;
+    }
+}
+@media screen and (min-width:1440px){
+    .carouselLab-img{
+        display: none;
+    }
+    .carouselLarge-img{
+        display: flex;
+    }
+    .carousel-head{
+        position: relative;
+    }
+    .carouselLabhead-img{
+        display: none;
+    }
+    .carouselLargehead-img{
+        display: block;
+    }
+    .left_btn{
+        display: flex;
+        position: absolute;
+        width: 40px;
+        background-color: #fff;
+        height: 88px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto 0;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, .12);
+        z-index: 1;
+        border-radius: 0px 4px 4px 0px;
+    }
+    .left_arrow::before{
+        transform: rotate(225deg);
+        content: "";
+        position: relative;
+        border-color: #878787;
+        border-style: solid;
+        border-width: 2px 2px 0 0;
+        display: inline-block;
+        height: 6px;
+        width: 6px;
+    }
+    .left_arrow{
+        position: absolute;
+        right: 16px;
+        top: 50%;
+        transform: scale(1) translateY(-50%);
+    }
+    .right_btn{
+        display: flex;
+        position: absolute;
+        width: 40px;
+        background-color: #fff;
+        height: 88px;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto 0;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, .12);
+        z-index: 1;
+        border-radius: 4px 0px 0px 4px;
+    }
+    .right_arrow::before{
+        transform: rotate(45deg);
+        content: "";
+        position: relative;
+        border-color: #878787;
+        border-style: solid;
+        border-width: 2px 2px 0 0;
+        display: inline-block;
+        height: 6px;
+        width: 6px;
+    }
+    .right_arrow{
+        position: absolute;
+        top: 50%;
+        left: 16px;
+        transform: scale(1) translateY(-50%);
+    }
+
+}    

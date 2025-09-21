@@ -1,0 +1,121 @@
+.drawer-overlay{
+    top: 0;
+    left: 0;
+    list-style-type: none;
+    position: absolute;
+    background:rgba(0,0, 0, 0.6);
+    z-index: 9999;
+    height: 100vh;
+    width: 100vw;
+    font-family: var(--int-regu);
+    
+}
+.drawer{
+    width: 75%;
+    background-color:#fff;
+    height: 100%;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 3px 0 8px 1px rgba(0, 0, 0, .4);
+
+}
+.drawer.open{
+    transform:translateX(0) ;
+}
+.drawer-container{
+    display: flex;
+    flex-direction: column;
+
+}
+.table-row{
+    display: flex;
+    justify-content: space-between;
+}
+.login-table{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(30deg, #2874f0, #0065c5);
+    padding: 2px 0;
+    height: 60px;
+    font-size: 12px;
+}
+.login-table td{
+    display: flex;
+    align-items: center;
+}
+.login-table .table-img  img{
+    margin-left: 12px;
+    width: 15px;
+    height: 15px;
+}
+.login-table .table-img .nav-login{
+    width: 75%;
+    margin-left: 20px;
+    font-size: 16px;
+    align-self: flex-end;
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 1px;
+}
+.flip-simple-logo{
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.nav-body ul{
+    margin: 0;
+}
+.nav-body .nav-list{
+    height: 35px;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 15px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    color: #212121;
+}
+.nav-body .nav-list a{
+    text-decoration: none;
+    color: #333;
+    display: block;
+    width: 100%;
+}
+.nav-body .list-data{
+    display: flex;
+    align-items: center;
+    color: #353535;
+}
+.nav-body .super-img{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.nav-body .super-img img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.nav-body .list-data span{
+    margin-left: 12px;
+    color: #353535; 
+    font-size: 14px;
+}
+.nav-body .flixcart{
+    width: 14px;
+    height: 14px;
+}
+.nav-body .category{
+    border-top: 1px solid #e4dcdc;
+}
+.nav-body .more_on{
+    border-bottom: 1px solid #e4dcdc;
+}
+.nav-body .language{
+    border-top: 1px solid #e4dcdc;
+}
+
+
+
+

@@ -1,0 +1,43 @@
+.electronics_main{
+    position: absolute;
+    left: 0;
+    top: 40px;
+    background-color: #fff;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    z-index: 5;
+    box-shadow: 0 1px 2px 1px rgba(0,0,0,.16);
+    display: flex;
+    width: 100%;
+}      
+.elec_each_div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 25px;          
+}
+.elec_head_text{
+    margin-top: 5px;
+    padding: 8px 0;
+    font-weight: 500;
+    color: #212121;
+    font-size: 13px;
+    font-family: var(--int-semi);
+}                                                                           
+.elec_head_text::after{
+    content: "►";
+    font-size: 8px;
+    color: rgb(194, 194, 194);
+    margin-left: 6px;
+    vertical-align: middle;
+}
+.elec_list_text{
+    padding: 5px 0;
+    color: #666;
+    font-size: 13px;
+    font-family: var(--int-regu);
+    white-space: nowrap;    
+}
+.second_div{
+    background: #f9f9f9;
+}

@@ -1,0 +1,245 @@
+{
+    "menulist":[
+        {
+            "id":1,
+            "src":"images/mobile.jpg",
+            "alt":"moblie",
+            "name":"Mobiles"
+        },
+        {
+            "id":2,
+            "src":"images/food_health.png",
+            "alt":"food_health",
+            "name":"Food, Health "
+        },
+        { 
+            "id":3,
+            "src":"images/beauty.png",
+            "alt":"beauty",
+            "name":"Beauty"
+        },
+        {
+            "id":4,
+            "src":"images/Appliances.png",
+            "alt":"Appliances",
+            "name":"Appliances"
+        },
+        {
+            "id":5,
+            "src":"images/genz_trend.jpg",
+            "alt":"genz_trends",
+            "name":"GenZ Trends"
+        },
+        {
+            "id":6,
+            "src":"images/furniture.jpg",
+            "alt":"furniture",
+            "name":"Furniture"
+        },
+        {
+            "id":7,
+            "src":"images/sports.jpg",
+            "alt":"sports",
+            "name":"Sports"
+        },
+        {
+            "id":8,
+            "src":"images/super_coin.jpg",
+            "alt":"super_coin",
+            "name":"SuperCoin"
+        },
+        {
+            "id":9,
+            "src":"images/nextGen.jpg",
+            "alt":"next_gen",
+            "name":"NextGen"
+        }
+    ],
+    "menulistTwo":[
+         {
+            "id":1,
+            "src":"images/grocery.jpg",
+            "alt":"grocery",
+            "name":"Grocery"
+        },
+        {
+            "id":2,
+            "src":"images/fashion.jpg",
+            "alt":"fashion",
+            "name":"Fashion"
+        },
+        {
+            "id":3,
+            "src":"images/travel.jpg",
+            "alt":"travel",
+            "name":"Travel"
+        },
+        {
+            "id":4,
+            "src":"images/home.jpg",
+            "alt":"home",
+            "name":"Home"
+        },
+        {
+            "id":5,
+            "src":"images/electronics.jpg",
+            "alt":"electronics",
+            "name":"Electronics"
+        },
+        {
+            "id":6,
+            "src":"images/two_wheeler.jpg",
+            "alt":"two_wheeler",
+            "name":"2 Wheeler"
+        },
+        {
+            "id":7,
+            "src":"images/toys_baby.png",
+            "alt":"toys_baby",
+            "name":"Toys, Baby.."
+        },
+        {
+            "id":8,
+            "src":"images/auto_acc.png",
+            "alt":"auto_acc",
+            "name":"Auto Acc."
+        },
+        {
+            "id":9,
+            "src":"images/sell_phone.jpg",
+            "alt":"sell_phone",
+            "name":"Sell Phone"
+        }
+        ,
+        {
+            "id":10,
+            "src":"images/more.jpg",
+            "alt":"more",
+            "name":"More"
+        }
+    ]
+    ,
+    "menulistLap":[
+        {
+            "id":1,
+            "src":"https://rukminim1.flixcart.com/fk-p-flap/128/128/image/3dbe4c89fbf0003d.png?q=100",
+            "alt":"Minutes",
+            "name":"Minutes"
+        },
+        {
+            "id":2,
+            "src":"https://rukminim1.flixcart.com/fk-p-flap/128/128/image/75ac28a1e9192898.png?q=100",
+            "alt":"Top Offers",
+            "name":"Top Offers"
+        },
+        {
+            "id":3,
+            "src":"https://rukminim1.flixcart.com/fk-p-flap/128/128/image/cd6aca4f61e8ea95.png?q=100",
+            "alt":"Mobiles & Tablets",
+            "name":"Mobiles & Tablets"
+        },
+        {
+            "id":4,
+            "src":"https://rukminim1.flixcart.com/fk-p-flap/128/128/image/9c64dfa667885ca9.png?q=100",
+            "alt":"TVs & Appliances",
+            "name":"TVs & Appliances"
+        },
+        {
+            "id":5,
+            "src":"https://rukminim1.flixcart.com/fk-p-flap/128/128/image/4d6b13d5a0e0724a.png?q=100",
+            "alt":"Electronics",
+            "name":"Electronics"
+        },
+        {
+            "id":6,
+            "src":"https://rukminim1.flixcart.com/fk-p-flap/128/128/image/ec2982e5564fe07c.png?q=100",
+            "alt":"Fashion",
+            "name":"Fashion"
+        },
+        {
+            "id":7,
+            "src":"https://rukminim1.flixcart.com/fk-p-flap/128/128/image/febcb9896245caf4.png?q=100",
+            "alt":"Home & Kitchen",
+            "name":"Home & Kitchen"
+        },
+        {
+            "id":8,
+            "src":"https://rukminim1.flixcart.com/fk-p-flap/128/128/image/cddd92e134ba3ea9.png?q=100",
+            "alt":"Furniture",
+            "name":"Furniture"
+        },
+        {
+            "id":9,
+            "src":"https://rukminim1.flixcart.com/fk-p-flap/128/128/image/d9eea6cd0e7b68bb.png?q=100",
+            "alt":"Flight Bookings",
+            "name":"Flight Bookings"
+        },
+        {
+            "id":10,
+            "src":"https://rukminim1.flixcart.com/fk-p-flap/128/128/image/2ebb95ec20eae8f1.png?q=100",
+            "alt":"Grocery",
+            "name":"Grocery"
+        }
+    ],
+    "menulistLarge":[
+        {
+            "id":1,
+            "src":"images/minuteLarge.png",
+            "alt":"Minutes",
+            "name":"Minutes"
+        },
+        {
+            "id":2,
+            "src":"images/moblie_tablet.png",
+            "alt":"Moblies & Tablets",
+            "name":"Moblies & Tablets"
+        },
+        {
+            "id":3,
+            "src":"images/fashionLarge.png",
+            "alt":"Fashion",
+            "name":"Fashion",
+            "droplogo":"images/Chevron.svg"
+        },
+        {
+            "id":4,
+            "src":"images/electronicsLarge.png",
+            "alt":"Electronics",
+            "name":"Electronics",
+            "droplogo":"images/Chevron.svg"
+        },
+        {
+            "id":5,
+            "src":"images/furnitureLarge.png",
+            "alt":"Furniture",
+            "name":"Home & Furniture",
+            "droplogo":"images/Chevron.svg"
+        },
+        {
+            "id":6,
+            "src":"images/TVs & Appliances.jpg",
+            "alt":"TVs & Appliances",
+            "name":"TVs & Appliances"
+        },
+        {
+            "id":7,
+            "src":"images/flight_booking.png",
+            "alt":"Flight Bookings",
+            "name":"Flight Bookings"
+        },
+        {
+            "id":8,
+            "src":"images/teddy.png",
+            "alt":"Beauty",
+            "name":"Beauty, Food..",
+            "droplogo":"images/Chevron.svg"
+        },
+        {
+            "id":9,
+            "src":"images/groceryLarge.png",
+            "alt":"Grocery",
+            "name":"Grocery"
+        }
+    ]
+
+}

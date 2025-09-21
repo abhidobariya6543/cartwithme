@@ -1,0 +1,187 @@
+{
+    "topdeal": [
+        {
+            "id": 4,
+            "src": "https://rukminim1.flixcart.com/fk-p-flap/1040/1560/image/ccf9c4490cda70a3.jpg?q=60",
+            "alt": "tv"
+        },
+        {
+            "id": 1,
+            "src": "https://rukminim1.flixcart.com/fk-p-flap/1040/1560/image/7a17546b3e47a8e1.jpg?q=60",
+            "alt": "headphones"
+        },
+        {
+            "id": 2,
+            "src": "https://rukminim1.flixcart.com/fk-p-flap/1040/1560/image/40e1da94b856d2ef.png?q=60",
+            "alt": "edge"
+        },
+        {
+            "id": 3,
+            "src": "https://rukminim1.flixcart.com/fk-p-flap/1040/1560/image/41eafd65a5365ee9.jpg?q=60",
+            "alt": "hp"
+        },
+        {
+            "id": 5,
+            "src": "https://rukminim1.flixcart.com/fk-p-flap/1040/1560/image/34b86c377a3254e7.jpg?q=60",
+            "alt": "puma"
+        },
+        {
+            "id": 6,
+            "src": "https://rukminim1.flixcart.com/fk-p-flap/1040/1560/image/f7aee8d917ff9048.jpg?q=60",
+            "alt": "dry_fruits"
+        }
+    ],
+    "topdeal2": [
+        {
+            "id": 4,
+            "src": "https://rukminim1.flixcart.com/fk-p-flap/1040/1560/image/e68f8d14e9ffeb1a.png?q=60",
+            "alt": "tv"
+        },
+        {
+            "id": 1,
+            "src": "https://rukminim1.flixcart.com/fk-p-flap/1040/1560/image/eda01ab0efccf720.jpg?q=60",
+            "alt": "headphones"
+        },
+        {
+            "id": 2,
+            "src": "https://rukminim1.flixcart.com/fk-p-flap/1040/1560/image/554dd5c49796df85.jpg?q=60",
+            "alt": "edge"
+        },
+        {
+            "id": 3,
+            "src": "https://rukminim1.flixcart.com/fk-p-flap/1040/1560/image/e9d90daf2ba5541b.jpg?q=60",
+            "alt": "hp"
+        },
+        {
+            "id": 5,
+            "src": "https://rukminim1.flixcart.com/fk-p-flap/1040/1560/image/a34f8494f7bae915.jpg?q=60",
+            "alt": "puma"
+        },
+        {
+            "id": 6,
+            "src": "https://rukminim1.flixcart.com/fk-p-flap/1040/1560/image/f913e6c0dc0db846.jpg?q=60",
+            "alt": "dry_fruits"
+        }
+    ],
+    "topdeal3": [
+        {
+            "id": 4,
+            "src": "https://rukminim1.flixcart.com/fk-p-flap/1040/1560/image/de70309b14681261.jpg?q=60",
+            "alt": "tv"
+        },
+        {
+            "id": 1,
+            "src": "https://rukminim1.flixcart.com/fk-p-flap/1040/1560/image/1c82b1f526e3d3fc.jpg?q=60",
+            "alt": "headphones"
+        },
+        {
+            "id": 2,
+            "src": "https://rukminim1.flixcart.com/fk-p-flap/1040/1560/image/e55701ca8e810890.jpg?q=60",
+            "alt": "edge"
+        },
+        {
+            "id": 3,
+            "src": "https://rukminim1.flixcart.com/fk-p-flap/1040/1560/image/9059c0a026cb40f2.jpg?q=60",
+            "alt": "hp"
+        },
+        {
+            "id": 5,
+            "src": "https://rukminim1.flixcart.com/fk-p-flap/1040/1560/image/9f37d1310da49ecd.jpg?q=60",
+            "alt": "puma"
+        },
+        {
+            "id": 6,
+            "src": "https://rukminim1.flixcart.com/fk-p-flap/1040/1560/image/1ccd4b53524d14e8.jpg?q=60",
+            "alt": "dry_fruits"
+        }
+    ],
+    "blockbuster": [
+        {
+            "id": 1,
+            "src": "images/boult.jpg",
+            "alt": "boult"
+        },
+        {
+            "id": 2,
+            "src": "images/qled.png",
+            "alt": "qled"
+        },
+        {
+            "id": 3,
+            "src": "images/moto.jpg",
+            "alt": "moto"
+        },
+        {
+            "id": 4,
+            "src": "images/realme.jpg",
+            "alt": "realme"
+        },
+        {
+            "id": 5,
+            "src": "images/washing.jpeg",
+            "alt": "washing"
+        },
+        {
+            "id": 6,
+            "src": "images/powerbank.jpg",
+            "alt": "powerbank"
+        },
+        {
+            "id": 7,
+            "src": "images/vivo.jpg",
+            "alt": "vivo"
+        },
+        {
+            "id": 8,
+            "src": "images/pendrive.jpg",
+            "alt": "pendrive"
+        }
+    ],
+    "jackpot": [
+        {
+            "id": 1,
+            "src": "images/wrogn.png",
+            "alt": "wrogn"
+        },
+        {
+            "id": 2,
+            "src": "images/redtapewhite.jpg",
+            "alt": "redtapewhite"
+        },
+        {
+            "id": 3,
+            "src": "images/unizone.jpg",
+            "alt": "unizone"
+        },
+        {
+            "id": 4,
+            "src": "images/redtapejackpot.jpg",
+            "alt": "redtape"
+        },
+        {
+            "id": 5,
+            "src": "images/gasStove.jpg",
+            "alt": "gasStove"
+        },
+        {
+            "id": 6,
+            "src": "images/biotique.jpg",
+            "alt": "biotique"
+        },
+        {
+            "id": 7,
+            "src": "images/kurlon.jpg",
+            "alt": "kurlon"
+        },
+        {
+            "id": 8,
+            "src": "images/beds.png",
+            "alt": "beds"
+        },
+        {
+            "id": 9,
+            "src": "images/skincare.jpg",
+            "alt": "skincare"
+        }
+    ]
+}

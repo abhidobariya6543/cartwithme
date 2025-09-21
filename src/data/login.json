@@ -1,0 +1,40 @@
+{
+    "loginData":[
+        {
+            "id":1,
+            "name":"My Profile",
+            "src":"images/profile-52e0dc.svg",
+            "alt":"My Profile"
+        },
+        {
+            "id":2,
+            "name":"Flipkart Plus Zone",
+            "src":"images/flipplus.svg",
+            "alt":"Flipkart Plus Zone"
+        },
+        {
+            "id":3,
+            "name":"Orders",
+            "src":"images/orders-bfe8c4.svg",
+            "alt":"Orders"
+        },
+        {
+            "id":4,
+            "name":"Wishlist",
+            "src":"images/wishlist.svg",
+            "alt":"Wishlist"
+        },
+        {
+            "id":5,
+            "name":"Rewards",
+            "src":"images/rewards-fbd212.svg",
+            "alt":"Rewards"
+        },
+        {
+            "id":6,
+            "name":"Gift Cards",
+            "src":"images/giftCard-bd87e1.svg",
+            "alt":"Gift Cards"
+        }
+    ]
+}

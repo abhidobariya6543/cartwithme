@@ -1,0 +1,36 @@
+{
+    "offerOne": [
+        {
+            "id": 1,
+            "src": "https://rukminim1.flixcart.com/fk-p-flap/200/260/image/856de182b62be3cd.jpeg?q=60",
+            "alt": "roadstar"
+        },
+        {
+            "id": 2,
+            "src": "https://rukminim1.flixcart.com/fk-p-flap/200/260/image/21c71e07e6205fba.jpeg?q=60",
+            "alt": "diavastri"
+        },
+        {
+            "id": 3,
+            "src": "https://rukminim1.flixcart.com/fk-p-flap/200/260/image/55fe8337293a2420.jpeg?q=60",
+            "alt": "metronaut"
+        }
+    ],
+    "offerTwo": [
+        {
+            "id": 1,
+            "src": "https://rukminim1.flixcart.com/fk-p-flap/200/260/image/507cdfb15452972b.jpeg?q=60",
+            "alt": "roadstar"
+        },
+        {
+            "id": 2,
+            "src": "https://rukminim1.flixcart.com/fk-p-flap/200/260/image/00088ab299dbcec2.jpeg?q=60",
+            "alt": "diavastri"
+        },
+        {
+            "id": 3,
+            "src": "https://rukminim1.flixcart.com/fk-p-flap/200/260/image/89fd16a938a6ada0.jpeg?q=60",
+            "alt": "metronaut"
+        }
+    ]
+}

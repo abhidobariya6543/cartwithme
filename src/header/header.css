@@ -1,0 +1,440 @@
+button {
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+header{
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 99999;
+    background-color: #ffffff;
+}
+.header-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 16px 5px;
+}
+.header-div-desk{
+    display: none;
+}
+.flipkart-nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+
+}
+.flipkart-logo-div{
+    padding-top: 1px;
+}
+.flipkart-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.logo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-down{
+    display: flex;
+    align-items: center;
+    padding-bottom: 1px;
+}
+.shopping-cart{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 1px;
+}
+.man-logo{
+    padding-bottom: 1px;
+}
+.login{
+    font-family: var(--int-regu);
+    font-size: 16px;
+    padding-bottom: 1px;
+}
+img.man-logo {
+    
+    padding-right: 4.5px;
+}
+.location-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0;
+    gap: 4px;
+    font-family: var(--int-semi);
+}
+.location-div{
+    display: flex;
+    align-items: center;
+    padding: 0px 16px 0px; 
+     gap: 6px;
+     
+}      
+.select-location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: rgb(42, 85, 229);;
+    gap: 0;
+    font-family: var(--int-semi);
+
+}
+.search_engine_head{
+    padding: 16px 16px;
+}
+.search_engine{
+    display: flex;
+    align-items: center;
+    border: 2px solid #EBEBEB;
+     border-radius: 13px;
+     height: 51.5px;
+      padding-left: 12px;
+      padding-right: 4px;
+}
+.search_icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mb-3 .form-control{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -.01px;
+    padding-left: 8px;
+    color: rgba(0, 0, 0, .87843);
+     font-family: var(--int-regu);
+}
+.threedot-hd .threedot-div{
+        border: 1px solid transparent;
+        box-sizing: border-box;
+   }
+@media screen and (min-width:768px){
+    .header{
+        display: none;
+    }
+    .header-div-desk{
+        background-color: #fff;
+        display: flex;
+        /* justify-content: center; */
+        flex-direction: column;
+        position: sticky;
+        top: 0;
+        width: 100%;
+        z-index: 99999;
+
+    }
+    .header-sbdiv-desk{
+        display: flex;
+        justify-content: center;
+    }
+    .header-child-div{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .header-class{
+        padding: 12px;
+        max-width: 996px;
+        display: flex;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        width: 100%;
+        justify-content: space-between;
+        z-index: 99999;
+
+    }
+    .header-class .header-right{
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+    }
+    .header-class .flipkart-div{
+        margin-right: 36px;
+        
+    }
+    .header-class .flipkart-div img{
+        width: 120px;
+        height: 40px;
+    }
+    .header-class .filpkart-div a{
+        text-decoration: none;
+        color: #333;
+    }
+    .header-class .search-div{
+        min-width: 200px;
+        margin: 0;
+        width: 100%;
+    }
+    .header-class .search-div form{
+        display: inline-block;
+        width: 100%;
+        position: relative;
+        border-radius: 8px;
+        background-color: #f0f5ff;
+    }
+    .header-class .search-sub-div{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background-color: transparent;
+    }
+    .header-class .search-sub-div button{
+        height: 40px;
+        border-radius: 2px;
+        cursor: pointer;
+        padding: 8px 8px 8px 12px;
+        background-color: transparent;
+    }
+    .header-class .search-input{
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        background-color: transparent;
+    }
+    .header-class .search-input input{
+        text-overflow: ellipsis;
+        border: 0;
+        outline: 0;
+        font-size: 17px;
+        height: 40px;
+        width: 100%;
+        background-color: transparent;
+        font-family: var(--int-regu);
+    }
+    .header-class .header-left{
+        display: flex;
+        align-items: center;
+    }
+    .header-class .login-hddiv{
+        padding: 0 6px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    .header-class .login-div{
+        display: flex;
+        align-items: center;
+        border: 1px solid transparent;
+        box-sizing: border-box;
+        padding: 8px;
+    }
+    .header-class .login-div .login-link{
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000;
+        text-decoration: none;
+        text-align: center;
+        cursor: pointer;
+        font-family: var(--int-regu);
+    }
+    .login-div .login-link img{
+        margin-right: 8px;
+        width: 24px;
+        height: 24px;
+    }
+    .login-div .arrow-down {
+        width: 12px;
+        height: 12px;
+        margin-left: 8px;
+    }
+    .cart-hddiv .cart-div{
+        padding: 0 6px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    .cart-hddiv .cart-div .cart-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: #333;
+    }
+    .cart-hddiv .cart-div img{
+        margin-right: 8px;
+    }
+    .seller-hddiv .seller-div{
+        padding: 0 6px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    .seller-hddiv .seller-div .seller-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: #333;
+    }
+    .seller-hddiv .seller-div img{
+        margin-right: 8px;
+    }
+    .threedot-hd .threedot-hddiv{
+        padding: 0 6px;
+        display: flex;
+        align-items: center;
+    }
+    .threedot-hd .threedot-div{
+        display: flex;
+        align-items: center;
+        border: 1px solid transparent;
+        box-sizing: border-box;
+        padding: 8px;
+    }
+    .threedot-hd .threedot-div a{
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000;
+        text-decoration: none;
+        text-align: center;
+    }
+    .threedot-hd .threedot-div img{
+        width: 24px;
+        height: 24px;
+    }
+    .threedot-div:hover{
+        background: #fafafa;
+        border: 1px solid black;
+        border-radius: 8px
+    }
+   .cart{
+    display: none;
+   }
+   .become-a-seller{
+    display: none;
+   }
+
+}
+@media screen and (min-width:1024px) {
+    .header-class .login-div:hover{
+        background: #2a55e5;
+        border-color: #2a55e5;
+        border-radius: 8px;
+    }
+    .header-class .login-div:hover .login_txt{
+        color: #fff;
+    }
+    .login-div:hover .login-link img {
+        filter: brightness(0) invert(1);
+    }
+    .login-div .arrow-down{
+        transform: rotate(0);
+        transition: transform 0.3s ease-in-out; 
+    }
+    .login-div:hover .arrow-down{
+        filter: brightness(0) invert(1);
+        transform: rotate(180deg); 
+    }
+    /* .cart{
+        display: block;
+    } */
+    /* .cart{
+        display: block;
+        color: #000;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        width: max-content;
+    }
+    .become-a-seller{
+        display: block;
+        color: #000;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        width: max-content;
+    }
+    .header-class{
+        padding: 12px;
+    }
+    .header-class .login-hddiv{
+        padding: 0 6px;
+    }
+    .cart-hddiv .cart-div{
+        padding: 0 6px;
+    } 
+    .seller-hddiv .seller-div{
+        padding: 0 6px;
+    } 
+    .threedot-hd .threedot-hddiv {
+        padding: 0 6px;
+    } */
+    .header-class .flipkart-div img{
+        width: 160px;
+        height: 40px;
+    }
+    
+}
+@media screen and (min-width:1440px){
+    .header-class .search-div{
+        min-width: none;
+    }
+    .header-child-div{
+        display: block;
+        width: 100%;
+    }
+    .header-class{
+        padding: 12px 28px;
+        max-width: none;
+    }
+    .cart{
+        display: block;
+        color: #000;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        width: max-content;
+        font-family: var(--int-regu);
+    }
+    .become-a-seller{
+        display: block;
+        color: #000;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        width: max-content;
+        font-family:var(--int-regu) ;
+    }
+    .header-class .login-hddiv{
+        padding: 0 20px;
+    }
+    .cart-hddiv .cart-div{
+        padding: 0 20px;
+    }
+    .seller-hddiv .seller-div{
+        padding: 0 20px;
+    }
+    .threedot-hd .threedot-hddiv{
+        padding: 0 20px;
+    }
+    .header-class .flipkart-div img{
+        width: 120px;
+        height: 40px;
+    }
+    
+}

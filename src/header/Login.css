@@ -1,0 +1,71 @@
+.login_more_main{
+    position: absolute;
+    top: 0;
+    font-family: var(--int-regu);
+}
+.login_more_div{
+    background-color: #ffffff;
+    top: 55px;
+    left: -10px;
+    position: absolute;
+    width: 280px;  
+    border-radius: 8px;  
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .2)          
+}
+.login_more_div ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.login_more_div a{
+    text-decoration: none;
+    color: #000;
+}
+.login_more_div .sign_up{
+    border-bottom: 1px solid #e0e0e0;
+    padding: 12px;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+.login_more_content{
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    /* text-align: center; */
+
+}
+.login_more_content li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.login_more_div .sign_up li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.login_more_logo{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_more_content:hover{
+    background-color: rgba(215, 215, 215, 0.142);
+}
+.login_more_logo img{
+    width: 18px;
+    height:18px;
+    margin-right: 8px;
+}
+.login_more_main .sign_up_text{
+    color: #2a55e5;
+    font-family: var(--int-semi);
+}

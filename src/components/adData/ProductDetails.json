@@ -1,0 +1,86 @@
+{
+    "imageList":[
+        {
+            "id":1,
+            "src":"/images/imageList_1happilo.jpeg"
+        },
+        {
+            "id":2,
+            "src":"/images/imageList_2happilo.webp"
+        },
+        {
+            "id":3,
+            "src":"/images/imageList_3happilo.webp"
+        },
+        {
+            "id":4,
+            "src":"/images/imageList_4happilo.jpeg"
+        },
+        {
+            "id":5,
+            "src":"/images/imageList_5happilo.webp"
+        },
+        {
+            "id":6,
+            "src":"/images/imageList_6happilo.jpeg"
+        }
+    ],
+    "imageSelect" : [
+        {
+            "id":1,
+            "src":"/images/happilo_selected.webp"
+        },
+        {
+            "id":2,
+            "src":"/images/img2_selected.webp"
+        },
+        {
+            "id":3,
+            "src":"/images/img3_selected.webp"
+        },
+        {
+            "id":4,
+            "src":"/images/img4_selected.webp"
+        },
+        {
+            "id":5,
+            "src":"/images/img5_selected.webp"
+        },
+        {
+            "id":6,
+            "src":"/images/img6_selected.webp"
+        }
+    ],
+    "path":[
+        {
+            "id":1,
+            "name":"Home",
+            "src":"/images/path_img.svg"
+        },
+        {
+            "id":2,
+            "name": "Food Products",
+            "src":"/images/path_img.svg"
+        },
+        {
+            "id":3,
+            "name":"Dry Fruit, Nut & Seed",
+            "src":"/images/path_img.svg"
+        },
+        {
+            "id":4,
+            "name": "Dry Fruits",
+            "src":"/images/path_img.svg"
+        },
+        {
+            "id":5,
+            "name":"Happilo Dry Fruits",
+            "src":"/images/path_img.svg"
+        },
+        {
+            "id":6,
+            "name":"Happilo Premium Naturals Californian Almonds Almonds (1 x 200 g)",
+            "src":null
+        }
+    ]
+}

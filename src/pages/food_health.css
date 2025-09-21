@@ -1,0 +1,23 @@
+    .food_health_main{
+        display: block;
+        background-color: #fff;    
+    }
+    .food_health_large{
+        display: none;
+    }
+@media screen and (min-width:1024px){
+    .food_health_main{
+        display: block;
+    }
+    .food_health_large{
+        display: none;
+    }   
+}
+@media screen and (min-width:1440px){
+    .food_health_main{
+        display: none;
+    }
+    .food_health_large{
+        display: block;    
+    }
+}

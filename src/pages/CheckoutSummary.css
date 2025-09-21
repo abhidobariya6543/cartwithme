@@ -1,0 +1,629 @@
+.checkout_summary_main {
+    background-color: #f1f3f6;
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+
+/* Header */
+.summary_header {
+    background: white;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 1px solid #e0e0e0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.back_btn {
+    background: none;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.page_title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    color: #212121;
+}
+
+/* Progress Indicator */
+.progress_indicator {
+    background: white;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.progress_step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    position: relative;
+}
+
+.step_number {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #e0e0e0;
+    color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.progress_step.completed .step_number {
+    background: #00a651;
+    color: white;
+}
+
+.progress_step.active .step_number {
+    background: #2874f0;
+    color: white;
+}
+
+.progress_step span {
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}
+
+.progress_step.completed span,
+.progress_step.active span {
+    color: #2874f0;
+    font-weight: 500;
+}
+
+.progress_line {
+    width: 40px;
+    height: 2px;
+    background: #e0e0e0;
+    margin: 0 8px;
+}
+
+.progress_line.completed {
+    background: #00a651;
+}
+
+/* Out of Stock Alert */
+.out_of_stock_alert {
+    background: #dc3545;
+    color: white;
+    padding: 12px 16px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Delivery Section */
+.delivery_section {
+    background: white;
+    margin: 16px;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.section_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.section_header h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    color: #212121;
+}
+
+.change_address_btn {
+    background: #FFD700;
+    border: none;
+    color: #333;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(255, 215, 0, 0.3);
+    min-width: 140px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.change_address_btn:hover {
+    background: #FFC107;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(255, 215, 0, 0.4);
+}
+
+.btn_text {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.delivery_address {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.recipient_name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #212121;
+}
+
+.address_text {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.4;
+}
+
+.phone_number {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Order Items Section */
+.order_items_section {
+    background: white;
+    margin: 16px;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.order_item {
+    display: flex;
+    gap: 12px;
+    padding: 16px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.order_item:last-child {
+    border-bottom: none;
+}
+
+.order_item.out_of_stock {
+    opacity: 0.6;
+}
+
+.item_image {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+}
+
+.item_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.item_details {
+    flex: 1;
+}
+
+.item_name {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 0 4px 0;
+    line-height: 1.3;
+    color: #212121;
+}
+
+.item_variant {
+    font-size: 12px;
+    color: #666;
+    margin: 0 0 8px 0;
+}
+
+.item_rating {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 8px;
+}
+
+.rating {
+    font-size: 12px;
+    font-weight: 500;
+    color: #212121;
+}
+
+.star_icon {
+    width: 12px;
+    height: 12px;
+}
+
+.reviews {
+    font-size: 12px;
+    color: #666;
+}
+
+.assured_badge {
+    background: #00a651;
+    color: white;
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 2px;
+    margin-left: 4px;
+}
+
+.quantity_selector {
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+
+.quantity_selector select {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+.item_pricing {
+    margin-bottom: 8px;
+}
+
+.discount_badge {
+    /* background: #00a651; */
+    color: #00a651;
+    font-size: 10px;
+    padding: 2px 4px;
+    border-radius: 2px;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.price_row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 2px;
+}
+
+.original_price {
+    font-size: 12px;
+    color: #666;
+    text-decoration: line-through;
+}
+
+.current_price {
+    font-size: 14px;
+    font-weight: 600;
+    color: #212121;
+}
+
+.wow_price {
+    font-size: 12px;
+    color: #00a651;
+    font-weight: 500;
+}
+
+.protect_promise {
+    font-size: 12px;
+    color: #666;
+    margin-top: 4px;
+}
+
+.out_of_stock_message {
+    color: #dc3545;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.delivery_info {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.continue_btn {
+    background: #ff6b35;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* Additional Information Section */
+.additional_info_section {
+    background: white;
+    margin: 16px;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.info_item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.info_item:last-child {
+    border-bottom: none;
+}
+
+.info_icon {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.info_content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.add_email_btn {
+    background: none;
+    border: 1px solid #2874f0;
+    color: #2874f0;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.email_input_section {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.email_input {
+    flex: 1;
+    padding: 6px 8px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.submit_email_btn {
+    background: #2874f0;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.email_display {
+    font-size: 12px;
+    color: #666;
+}
+
+.gst_checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.gst_checkbox input[type="checkbox"] {
+    margin: 0;
+}
+
+.gst_checkbox label {
+    font-size: 14px;
+    color: #212121;
+    margin: 0;
+}
+
+.gst_note {
+    font-size: 12px;
+    color: #666;
+}
+
+.open_box_header {
+    font-size: 14px;
+    font-weight: 500;
+    color: #212121;
+    margin-bottom: 4px;
+}
+
+.open_box_description {
+    font-size: 12px;
+    color: #666;
+    line-height: 1.4;
+    margin: 0 0 8px 0;
+}
+
+.why_btn {
+    background: none;
+    border: none;
+    color: #2874f0;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 0;
+}
+
+/* Price Details Section */
+.price_details_section {
+    background: white;
+    margin: 16px;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.price_details_section h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 12px 0;
+    color: #212121;
+}
+
+.price_breakdown {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.price_breakdown .price_row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.price_breakdown .price_row.discount {
+    color: #00a651;
+}
+
+.price_breakdown .price_row.total {
+    font-weight: 600;
+    font-size: 16px;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 8px;
+    margin-top: 8px;
+}
+
+.savings_banner {
+    background: #e8f5e8;
+    color: #00a651;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-top: 12px;
+    text-align: center;
+}
+
+/* Legal Disclaimer */
+.legal_disclaimer {
+    background: white;
+    margin: 16px;
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 12px;
+    color: #666;
+    line-height: 1.4;
+    text-align: center;
+}
+
+/* Bottom Action Bar */
+.bottom_action_bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #e0e0e0;
+    z-index: 100;
+}
+
+.total_amount {
+    font-size: 18px;
+    font-weight: 600;
+    color: #212121;
+}
+
+.continue_order_btn {
+    background: rgb(255, 194, 0);
+    color: black;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    min-width: 120px;
+}
+
+.continue_order_btn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .delivery_section,
+    .order_items_section,
+    .additional_info_section,
+    .price_details_section,
+    .legal_disclaimer {
+        margin: 8px;
+        padding: 12px;
+    }
+    
+    .progress_indicator {
+        padding: 12px;
+    }
+    
+    .progress_step span {
+        font-size: 10px;
+    }
+    
+    .progress_line {
+        width: 20px;
+        margin: 0 4px;
+    }
+    
+    .order_item {
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .item_image {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .email_input_section {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .bottom_action_bar {
+        padding: 8px 12px;
+    }
+}
+
+/* Animation for out of stock items */
+.order_item.out_of_stock {
+    animation: fadeOut 0.5s ease-in-out;
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0.6; }
+}
+
+/* Hover effects */
+.change_btn:hover,
+.add_email_btn:hover,
+.continue_btn:hover,
+.why_btn:hover {
+    opacity: 0.8;
+}
+
+.continue_order_btn:hover:not(:disabled) {
+    background: #e55a2b;
+}

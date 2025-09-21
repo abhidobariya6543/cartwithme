@@ -1,0 +1,205 @@
+.buyproduct_main .buyproduct_div{
+    display: table;
+    position: fixed;
+    table-layout: fixed;
+    width: 100%;
+    z-index: 1;
+    min-height: 52px;
+    height: 52px;
+    background-color: rgb(255, 255, 255);
+}
+.buyproduct_main .buyproduct_goback{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 42px;
+    max-height: 16px;
+    line-height: 16px;
+}
+.buyproduct_main .buyProduct_logo{
+    display: table-cell;
+    vertical-align: middle;
+    height: 28px;
+    line-height: 10px;
+    max-width: 111px;
+    padding-top: 2px;
+}
+.buyproduct_main .filp_logo{
+    width: 23px;
+    max-height: 30px;
+}
+.buyproduct_main .buyproduct_gap{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    padding-left: 12px;
+    overflow: auto;
+}
+.buyproduct_main .buyproduct_search{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 42px;
+    max-height: 16px;
+    line-height: 10px;
+}
+.buyproduct_main .search_logo{
+    width: 20px;
+    height: 20px;
+}
+.buyproduct_main .cart_img{
+    width: 20px;
+    height: 20px;
+}
+.buyproduct_main .buyproductd_login{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 90px;
+    max-height: 16px;
+    line-height: 10px;
+    color: #212121;
+}
+.buyproduct_main .scroll_main{
+    padding-top: 52px;
+    position: relative;
+}
+.buyproduct_main .scroll_slider{
+    display: flex;
+    width: 100%;
+    height: 566.66px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    background-color:rgb(255, 255, 255);
+}   
+.buyproduct_main .scroll_slide{
+    flex: 0 0 100%;
+    scroll-snap-align: center;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+.buyproduct_main .slider_img{
+    width: 100%;
+    height: 100%;
+    padding: 0 4px;
+    object-fit: contain;
+}
+.buyproduct_main .scroll_slider::-webkit-scrollbar {
+    display: none;
+}
+.buyproduct_main .slider_indicators_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 8px;
+    width: 100%;
+}
+.buyproduct_main .slider_indicators{
+    display: flex;
+    justify-content: center;
+    height: 2px;
+    width: 100%;
+    align-items: center;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-top: 6px;
+}
+
+.buyproduct_main .dot{
+    width: 70.11px;
+    height: 2px;
+    background-color:rgb(245, 245, 245);
+}
+.buyproduct_main .dot.active{
+    background-color: black;
+}
+.buyproduct_main .buyproduct_festive{
+    position: absolute;
+    top: 68px;
+    left: 16px;
+    margin:6px 0 0 6px;
+    border-radius: 6px;
+}
+.buyproduct_main .festive_text {
+    height: 22px;
+    background: linear-gradient(90deg, rgb(80, 60, 235), rgb(80, 60, 235));
+    padding: 0 8px;
+    color: #fff;
+    font-size: 12px;
+    font-family: var(--int-bold);
+    display: inline-flex;
+    align-items: center;
+    border-radius: 6px;
+}
+.buyproduct_main .buyproduct_likeshare{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 68px;
+    right: 16px;
+}
+.buyproduct_main .buyproduct_like{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color:rgba(255, 255, 255, 0.88);
+    height: 32px;
+    width: 32px;
+    margin-bottom: 12px;
+}
+.buyproduct_main .buyproduct_share{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color:rgba(255, 255, 255, 0.88);
+    height: 32px;
+    width: 32px;
+}
+.buyproduct_main .buyproduct_expiry{
+    position: absolute;
+    bottom: 38.4px;
+    right: 16px;
+}
+.buyproduct_main .expiry_text{
+    margin-top: 16px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.56);
+    padding: 6px 8px;
+    color: #fff;
+    font-size: 11px;
+    font-family: var(--int-bold);
+}
+.buyproduct_main .expiry_text span{
+    color: #fff;
+    font-size: 11px;
+    font-family: var(--int-regu);
+    line-height: 14px;
+    margin-right: 2px;
+}
+.buyproduct_main .buyproduct_rating{
+    display: flex;
+    position: absolute;
+    bottom: 38.4px;
+    left: 16px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.88);
+    padding: 8px;
+}
+.buyproduct_main .rating_number{
+    color: rgb(51, 51, 51);
+    font-size: 12px;
+    line-height: 16px;
+    font-family: var(--int-bold);
+    margin-right: 2px;
+}
+.buyproduct_main .rating_count{
+    color: rgb(112, 112, 112);
+    margin-left: 2px;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: var(--int-regu);
+}

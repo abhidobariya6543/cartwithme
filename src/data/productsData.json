@@ -1,0 +1,455 @@
+{
+  "categories": {
+    "mobiles": {
+      "name": "Mobiles",
+      "products": [
+        {
+          "id": 1,
+          "name": "iPhone 15 Pro",
+          "variant": "128GB, Space Black",
+          "image": "/images/mobile.jpg",
+          "rating": 4.5,
+          "reviews": "2,50,000",
+          "originalPrice": 134900,
+          "currentPrice": 124900,
+          "discount": 7,
+          "wowPrice": 119900,
+          "deliveryDate": "Tomorrow",
+          "assured": true,
+          "category": "mobiles"
+        },
+        {
+          "id": 2,
+          "name": "Samsung Galaxy S24 Ultra",
+          "variant": "256GB, Titanium Black",
+          "image": "/images/mobile.jpg",
+          "rating": 4.4,
+          "reviews": "1,80,000",
+          "originalPrice": 124999,
+          "currentPrice": 109999,
+          "discount": 12,
+          "wowPrice": 104999,
+          "deliveryDate": "Tomorrow",
+          "assured": true,
+          "category": "mobiles"
+        },
+        {
+          "id": 3,
+          "name": "OnePlus 12",
+          "variant": "256GB, Silky Black",
+          "image": "/images/mobile.jpg",
+          "rating": 4.3,
+          "reviews": "95,000",
+          "originalPrice": 64999,
+          "currentPrice": 59999,
+          "discount": 8,
+          "wowPrice": 56999,
+          "deliveryDate": "Tomorrow",
+          "assured": true,
+          "category": "mobiles"
+        }
+      ]
+    },
+    "electronics": {
+      "name": "Electronics",
+      "products": [
+        {
+          "id": 4,
+          "name": "Sony WH-1000XM5 Headphones",
+          "variant": "Black, Noise Cancelling",
+          "image": "/images/headphone.jpg",
+          "rating": 4.6,
+          "reviews": "45,000",
+          "originalPrice": 29990,
+          "currentPrice": 24990,
+          "discount": 17,
+          "wowPrice": 22990,
+          "deliveryDate": "Tomorrow",
+          "assured": true,
+          "category": "electronics"
+        },
+        {
+          "id": 5,
+          "name": "MacBook Air M2",
+          "variant": "8GB RAM, 256GB SSD",
+          "image": "/images/mobile.jpg",
+          "rating": 4.7,
+          "reviews": "1,20,000",
+          "originalPrice": 99900,
+          "currentPrice": 89900,
+          "discount": 10,
+          "wowPrice": 84900,
+          "deliveryDate": "Tomorrow",
+          "assured": true,
+          "category": "electronics"
+        },
+        {
+          "id": 6,
+          "name": "Samsung 55\" QLED TV",
+          "variant": "4K UHD, Smart TV",
+          "image": "/images/tv.jpg",
+          "rating": 4.4,
+          "reviews": "85,000",
+          "originalPrice": 89999,
+          "currentPrice": 69999,
+          "discount": 22,
+          "wowPrice": 64999,
+          "deliveryDate": "Tomorrow",
+          "assured": true,
+          "category": "electronics"
+        }
+      ]
+    },
+    "fashion": {
+      "name": "Fashion",
+      "products": [
+        {
+          "id": 7,
+          "name": "Nike Air Max 270",
+          "variant": "Size 9, White/Black",
+          "image": "/images/fashion.jpg",
+          "rating": 4.3,
+          "reviews": "2,30,000",
+          "originalPrice": 12995,
+          "currentPrice": 9995,
+          "discount": 23,
+          "wowPrice": 8995,
+          "deliveryDate": "Tomorrow",
+          "assured": true,
+          "category": "fashion"
+        },
+        {
+          "id": 8,
+          "name": "Levi's 501 Original Jeans",
+          "variant": "Size 32, Dark Blue",
+          "image": "/images/fashion.jpg",
+          "rating": 4.2,
+          "reviews": "1,50,000",
+          "originalPrice": 3999,
+          "currentPrice": 2999,
+          "discount": 25,
+          "wowPrice": 2499,
+          "deliveryDate": "Tomorrow",
+          "assured": true,
+          "category": "fashion"
+        },
+        {
+          "id": 9,
+          "name": "Zara Cotton T-Shirt",
+          "variant": "Size M, Navy Blue",
+          "image": "/images/fashion.jpg",
+          "rating": 4.1,
+          "reviews": "75,000",
+          "originalPrice": 1299,
+          "currentPrice": 999,
+          "discount": 23,
+          "wowPrice": 799,
+          "deliveryDate": "Tomorrow",
+          "assured": true,
+          "category": "fashion"
+        }
+      ]
+    },
+    "home": {
+      "name": "Home & Furniture",
+      "products": [
+        {
+          "id": 10,
+          "name": "IKEA MALM Bed Frame",
+          "variant": "Queen Size, White",
+          "image": "/images/furniture.jpg",
+          "rating": 4.4,
+          "reviews": "35,000",
+          "originalPrice": 15999,
+          "currentPrice": 12999,
+          "discount": 19,
+          "wowPrice": 11999,
+          "deliveryDate": "2-3 days",
+          "assured": true,
+          "category": "home"
+        },
+        {
+          "id": 11,
+          "name": "Godrej Refrigerator",
+          "variant": "300L, Frost Free",
+          "image": "/images/refrigerator.jpg",
+          "rating": 4.3,
+          "reviews": "45,000",
+          "originalPrice": 35999,
+          "currentPrice": 29999,
+          "discount": 17,
+          "wowPrice": 27999,
+          "deliveryDate": "2-3 days",
+          "assured": true,
+          "category": "home"
+        },
+        {
+          "id": 12,
+          "name": "Prestige Pressure Cooker",
+          "variant": "5L, Stainless Steel",
+          "image": "/images/cookers.jpg",
+          "rating": 4.5,
+          "reviews": "1,20,000",
+          "originalPrice": 2499,
+          "currentPrice": 1999,
+          "discount": 20,
+          "wowPrice": 1799,
+          "deliveryDate": "Tomorrow",
+          "assured": true,
+          "category": "home"
+        }
+      ]
+    },
+    "beauty": {
+      "name": "Beauty",
+      "products": [
+        {
+          "id": 13,
+          "name": "Lakme 9 to 5 Foundation",
+          "variant": "30ml, Natural Beige",
+          "image": "/images/skincare.jpg",
+          "rating": 4.2,
+          "reviews": "85,000",
+          "originalPrice": 599,
+          "currentPrice": 449,
+          "discount": 25,
+          "wowPrice": 399,
+          "deliveryDate": "Tomorrow",
+          "assured": true,
+          "category": "beauty"
+        },
+        {
+          "id": 14,
+          "name": "Maybelline Mascara",
+          "variant": "9ml, Black",
+          "image": "/images/skincare.jpg",
+          "rating": 4.3,
+          "reviews": "1,50,000",
+          "originalPrice": 499,
+          "currentPrice": 399,
+          "discount": 20,
+          "wowPrice": 349,
+          "deliveryDate": "Tomorrow",
+          "assured": true,
+          "category": "beauty"
+        },
+        {
+          "id": 15,
+          "name": "Tresemme Shampoo",
+          "variant": "580ml, Keratin Smooth",
+          "image": "/images/tresemme.jpg",
+          "rating": 4.1,
+          "reviews": "2,00,000",
+          "originalPrice": 399,
+          "currentPrice": 299,
+          "discount": 25,
+          "wowPrice": 249,
+          "deliveryDate": "Tomorrow",
+          "assured": true,
+          "category": "beauty"
+        }
+      ]
+    },
+    "sports": {
+      "name": "Sports",
+      "products": [
+        {
+          "id": 16,
+          "name": "Adidas Football",
+          "variant": "Size 5, White/Black",
+          "image": "/images/sports.jpg",
+          "rating": 4.4,
+          "reviews": "65,000",
+          "originalPrice": 2999,
+          "currentPrice": 1999,
+          "discount": 33,
+          "wowPrice": 1799,
+          "deliveryDate": "Tomorrow",
+          "assured": true,
+          "category": "sports"
+        },
+        {
+          "id": 17,
+          "name": "Yoga Mat Premium",
+          "variant": "6mm, Purple",
+          "image": "/images/sports.jpg",
+          "rating": 4.3,
+          "reviews": "45,000",
+          "originalPrice": 1999,
+          "currentPrice": 1299,
+          "discount": 35,
+          "wowPrice": 999,
+          "deliveryDate": "Tomorrow",
+          "assured": true,
+          "category": "sports"
+        },
+        {
+          "id": 18,
+          "name": "Dumbbells Set",
+          "variant": "10kg each, Chrome",
+          "image": "/images/sports.jpg",
+          "rating": 4.5,
+          "reviews": "25,000",
+          "originalPrice": 4999,
+          "currentPrice": 3499,
+          "discount": 30,
+          "wowPrice": 2999,
+          "deliveryDate": "2-3 days",
+          "assured": true,
+          "category": "sports"
+        }
+      ]
+    },
+    "grocery": {
+      "name": "Grocery",
+      "products": [
+        {
+          "id": 19,
+          "name": "Basmati Rice 5kg",
+          "variant": "Premium Quality",
+          "image": "/images/grocery.jpg",
+          "rating": 4.4,
+          "reviews": "1,80,000",
+          "originalPrice": 899,
+          "currentPrice": 699,
+          "discount": 22,
+          "wowPrice": 599,
+          "deliveryDate": "Tomorrow",
+          "assured": true,
+          "category": "grocery"
+        },
+        {
+          "id": 20,
+          "name": "Olive Oil 1L",
+          "variant": "Extra Virgin",
+          "image": "/images/grocery.jpg",
+          "rating": 4.3,
+          "reviews": "95,000",
+          "originalPrice": 599,
+          "currentPrice": 449,
+          "discount": 25,
+          "wowPrice": 399,
+          "deliveryDate": "Tomorrow",
+          "assured": true,
+          "category": "grocery"
+        },
+        {
+          "id": 21,
+          "name": "Organic Honey 500g",
+          "variant": "Pure & Natural",
+          "image": "/images/grocery.jpg",
+          "rating": 4.5,
+          "reviews": "1,20,000",
+          "originalPrice": 399,
+          "currentPrice": 299,
+          "discount": 25,
+          "wowPrice": 249,
+          "deliveryDate": "Tomorrow",
+          "assured": true,
+          "category": "grocery"
+        }
+      ]
+    },
+    "food_health": {
+      "name": "Food & Health",
+      "products": [
+        {
+          "id": 22,
+          "name": "Tulsi California Rozana Almonds",
+          "variant": "1 x 1 kg",
+          "image": "/images/dry_fruits.jpg",
+          "rating": 4.2,
+          "reviews": "20,488",
+          "originalPrice": 1275,
+          "currentPrice": 782,
+          "discount": 38,
+          "wowPrice": 742,
+          "deliveryDate": "Sun Sep 28",
+          "assured": true,
+          "category": "food_health"
+        },
+        {
+          "id": 23,
+          "name": "ProV Natural Seedless Black Raisins",
+          "variant": "1 x 250 g",
+          "image": "/images/dry_fruits.jpg",
+          "rating": 4.2,
+          "reviews": "763",
+          "originalPrice": 249,
+          "currentPrice": 224,
+          "discount": 10,
+          "wowPrice": 212,
+          "deliveryDate": "Sun Sep 28",
+          "assured": true,
+          "category": "food_health"
+        },
+        {
+          "id": 24,
+          "name": "Happilo Premium Cashews",
+          "variant": "500g, Whole",
+          "image": "/images/dry_fruits.jpg",
+          "rating": 4.4,
+          "reviews": "45,000",
+          "originalPrice": 899,
+          "currentPrice": 699,
+          "discount": 22,
+          "wowPrice": 649,
+          "deliveryDate": "Tomorrow",
+          "assured": true,
+          "category": "food_health"
+        }
+      ]
+    }
+  },
+  "cartItems": [
+    {
+      "id": 1,
+      "name": "Noise Twist Go 1.39\" Display, Bluetooth...",
+      "variant": "Jet Black Strap, Regular",
+      "image": "/images/mobile.jpg",
+      "rating": 4.2,
+      "reviews": "1,64,423",
+      "originalPrice": 4999,
+      "currentPrice": 1399,
+      "discount": 72,
+      "wowPrice": 1329,
+      "protectPromiseFee": 19,
+      "deliveryDate": "Wed Sep 24",
+      "quantity": 1,
+      "assured": true,
+      "category": "electronics"
+    },
+    {
+      "id": 2,
+      "name": "Tulsi California Rozana Almonds",
+      "variant": "1 x 1 kg",
+      "image": "/images/dry_fruits.jpg",
+      "rating": 4.2,
+      "reviews": "20,488",
+      "originalPrice": 1275,
+      "currentPrice": 782,
+      "discount": 38,
+      "wowPrice": 742,
+      "deliveryDate": "Sun Sep 28",
+      "quantity": 1,
+      "assured": true,
+      "category": "food_health"
+    },
+    {
+      "id": 3,
+      "name": "ProV Natural Seedless Black Raisins",
+      "variant": "1 x 250 g",
+      "image": "/images/dry_fruits.jpg",
+      "rating": 4.2,
+      "reviews": "763",
+      "originalPrice": 249,
+      "currentPrice": 224,
+      "discount": 10,
+      "wowPrice": 212,
+      "deliveryDate": "Sun Sep 28",
+      "quantity": 1,
+      "assured": true,
+      "category": "food_health"
+    }
+  ]
+}

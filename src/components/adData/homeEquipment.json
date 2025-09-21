@@ -1,0 +1,111 @@
+{
+    "homeEquipment":[
+        {
+            "id":1,
+            "src":"images/ceiling.jpeg",
+            "alt":"ceiling",
+            "name":"Ceiling lamp",
+            "price":"Min. 50% Off"
+        },
+        {
+            "id":2,
+            "src":"images/light.jpeg",
+            "alt":"light",
+            "name":"Lighting Essentials",
+            "price":"From ₹79*"
+        },
+        {
+            "id":3,
+            "src":"images/sofa.jpeg",
+            "alt":"sofa",
+            "name":"Sofa Covers",
+            "price":"From ₹399*"
+        },
+        {
+            "id":4,
+            "src":"images/Pillows.jpeg",
+            "alt":"Pillows",
+            "name":"Pillows",
+            "price":"From ₹199*"
+        },
+        {
+            "id":5,
+            "src":"images/Plant.jpeg",
+            "alt":"plant",
+            "name":"Indoor Plants",
+            "price":"Up to 85% Off"
+        },
+        {
+            "id":6,
+            "src":"images/mosquito.jpeg",
+            "alt":"moquito",
+            "name":"Mosquito Nets",
+            "price":"From₹249*"
+        },
+        {
+            "id":7,
+            "src":"images/HomeDecoration.jpeg",
+            "alt":"home_decoration",
+            "name":"Home Decoratives",
+            "price":"From₹49*"
+        },
+        {
+            "id":8,
+            "src":"images/emergency_lamp.jpeg",
+            "alt":"emergency",
+            "name":"Home Emergency Lights",
+            "price":"Min.40% Off"
+        }
+    ],
+    "items":[
+        {
+            "id":1,
+            "src":"images/coffeepowder.jpeg",
+            "alt":"coffeepowder",
+            "name":"Coffee Powder",
+            "price":"Upto 80% Off"
+        },
+        {
+            "id":2,
+            "src":"images/gearcycle.jpeg",
+            "alt":"geared cycles",
+            "name":"Geared Cycles",
+            "price":"Up to 70% Off"
+        },
+        {
+            "id":3,
+            "src":"images/stationery.jpeg",
+            "alt":"Top Selling Stationery",
+            "name":"Top Selling Stationery",
+            "price":"From ₹49"
+        },
+        {
+            "id":4,
+            "src":"images/batman.jpeg",
+            "alt":"Best of Action Toys",
+            "name":"Best of Action Toys",
+            "price":"Up to 70% Off"
+        },
+        {
+            "id":5,
+            "src":"images/softToys.jpeg",
+            "alt":"Soft Toys",
+            "name":"Soft Toys",
+            "price":"Upto 70% Off"
+        },
+        {
+            "id":6,
+            "src":"images/puzzles.jpeg",
+            "alt":"Puzzles & Cubes",
+            "name":"Puzzles & Cubes",
+            "price":"From ₹ 79"
+        },
+        {
+            "id":7,
+            "src":"images/dryfruits.jpeg",
+            "alt":"Dry Fruits",
+            "name":"Dry Fruits",
+            "price":"Upto 75% Off"
+        }
+    ]
+}

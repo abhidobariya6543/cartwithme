@@ -1,0 +1,226 @@
+{                                        
+    "products":[
+        {
+            "id":1,
+            "src":"images/almonds.webp",
+            "name":"ProV Select Independence Almond Almonds",
+            "brand":"Happilo",
+            "discount":"42%",
+            "underline":"₹1,349",
+            "price":"₹773",
+            "rate":4.5,
+            "assure_src":"images/assurance.png"
+
+        },
+        {
+            "id":2,
+            "src":"images/shree_makahana.webp",
+            "name":"SHREE MURLI Regular Lotus Seed Pop/Gorgon Nut Puffed Kernels (Phool Makhana) Lotus Seeds(Makhana)",
+            "brand":"41 foods",
+            "discount":"56%",
+            "underline":"₹380",
+            "price":"₹165",
+            "rate":4.5,
+            "assure_src":"images/assurance.png"
+
+        },
+        {
+            "id":3,
+            "src":"images/makahana.webp",
+            "name":"Dhanush Ban Regular Lotus Seed Pop / Gorgon Nut Puffed Kernels (Phool Makhana) 100g - Lotus Seeds(Makhana)",
+            "brand":"41 foods",
+            "discount":"26%",
+            "underline":"₹299",
+            "price":"₹221",
+            "rate":4.5
+
+        },
+        {
+            "id":4,
+            "src":"images/super_seed.webp",
+            "name":"Nature Aahar 7 in 1 Roasted seeds mix 500gm Sunflower Seeds, Pumpkin Seeds, Chia Seeds, Watermelon Seeds, Brown Flax Seeds, Sesame Seeds, Sweet Basil Seeds",
+            "brand":"Nature Aahar",
+            "discount":"75%",
+            "underline":"₹999",
+            "price":"₹248",
+            "rate":4,
+            "assure_src":"images/assurance.png"
+
+        },
+        {
+            "id":5,
+            "src":"images/healthy_mix.jpeg",
+            "name":"LIVYOR Healthy Mix Nuts, Seeds and Berries Combo | Super Nutritious Food | Dry Fruits Trail Mix with Seeds, Berries",
+            "brand":"Livyor",
+            "discount":"51%",
+            "underline":"₹395",
+            "price":"₹192",
+            "rate":4.5,
+            "assure_src":"images/assurance.png"
+
+        },
+        {
+            "id":6,
+            "src":"images/raisins.webp",
+            "name":"WONDERLAND Foods Hand Picked Platinum Plain Raisins",
+            "brand":"WONDERLAND",
+            "discount":"46%",
+            "underline":"₹349",
+            "price":"₹185",
+            "rate":4.5
+
+        },
+        {
+            "id":7,
+            "src":"images/nature_aahar.webp",
+            "name":"Nature Aahar Mix Dry Fruit | Panchmeva |250gm | JAR | Almonds, Cashews, Raisins, Dry Dates, Pistachios, Figs, Assorted Fruits & Nuts, Black Currant",
+            "brand":"Nature Aahar",
+            "discount":"69%",
+            "underline":"₹499",
+            "price":"₹153",
+            "rate":4.5, 
+            "assure_src":"images/assurance.png"
+
+        },
+        {
+            "id":8,
+            "src":"images/arabian_dates.webp",
+            "name":"Mv platter Premium Quality Arabian Dates for Healthy Snacking Dates",
+            "brand":"Mv",
+            "discount":"65%",
+            "underline":"₹899",
+            "price":"₹307",
+            "rate":4
+
+        },
+        {
+            "id":9,
+            "src":"images/scorist.webp",
+            "name":"Scorist Popular California Pistachios (Roasted & Salted) 500g Pistachios",
+            "brand":"scorist",
+            "discount":"45%",
+            "underline":"₹1,050",
+            "price":"₹577",
+            "rate":4
+
+        },
+        {
+            "id":10,
+            "src":"images/premium_mix.webp",
+            "name":"ProV Select Independence Almond Almonds",
+            "brand":"proV",
+            "discount":"42%",
+            "underline":"₹1,349",
+            "price":"₹773",
+            "rate":4.5,
+            "assure_src":"images/assurance.png"
+
+        },
+        {
+            "id":11,
+            "src":"images/open_secret_almonds.webp",
+            "name":"OPEN SECRET 100 % Natural Premium California Dry fruit Badam Raw Almonds",
+            "brand":"OPEN SECRET",
+            "discount":"50%",
+            "underline":"₹1,598",
+            "price":"₹799",
+            "rate":4,
+            "assure_src":"images/assurance.png"
+        },
+        {
+            "id":12,
+            "src":"images/mix_dryfruits.webp",
+            "name":"OPEN SECRET 100 % Natural Premium California Dry fruit Badam Raw Almonds",
+            "brand":"OPEN SECRET",
+            "discount":"50%",
+            "underline":"₹1,598",
+            "price":"₹799",
+            "rate":4
+        },
+        {
+            "id":13,
+            "src":"images/panchmewa.webp",
+            "name":"DAILYHERBS Mix Dry Fruit | Panchmeva | 250gm | AA+ Almonds, Cashews, Raisins, Apricots, Assorted Seeds & Nuts",
+            "brand":"DAILYHERBS",
+            "discount":"77%",
+            "underline":"₹600",
+            "price":"₹138",
+            "rate":3.5, 
+            "assure_src":"images/assurance.png"
+        },
+        {
+            "id":14,
+            "src":"images/narural_premium.webp",
+            "name":"OPEN SECRET 100 % Natural Premium California Dry fruit Badam Raw Almonds",
+            "brand":"OPEN SECRET",
+            "discount":"75%",
+            "underline":"₹1,000",
+            "price":"₹250",
+            "rate":4,
+            "assure_src":"images/assurance.png"
+        },
+        {
+            "id":15,
+            "src":"images/get_fresh.webp",
+            "name":"Get Fresh 08Dry Fruits Nut Mix Black & Green Raisin,Almonds,Cashews,Apricot,Pistachios,",
+            "brand":"41 foods",
+            "discount":"73%",
+            "underline":"₹899",
+            "price":"₹234",
+            "rate":3.5
+        },
+        {
+            "id":16,
+            "src":"images/royal_roots.webp",
+            "name":"ROYAL ROOTS Pure & Natural Fennel Seeds | No Colours or Preservatives Saunf Small",
+            "brand":"ROYAL ROOTS",
+            "discount":"49%",
+            "underline":"₹399",
+            "price":"₹200",
+            "rate":2.5
+        },
+        {
+            "id":17,
+            "src":"images/granic_farms.webp",
+            "name":"Granic Farms Dried Amla Candy| Organic Dry Indian Gooseberry Amla | Fruit Mouth Freshener| Amla",
+            "brand":"farmley",
+            "discount":"69%",
+            "underline":"₹800",
+            "price":"₹243",
+            "rate":4,
+            "assure_src":"images/assurance.png"
+        },
+        {
+            "id":18,
+            "src":"images/classic_wheat.webp",
+            "name":"Classic Whole Posto Poppy Seeds by Flipkart Grocery",
+            "brand":"41 foods",
+            "discount":"20%",
+            "underline":"₹300",
+            "price":"₹210",
+            "rate":3,
+            "assure_src":"images/assurance.png"
+        },
+        {
+            "id":19,
+            "src":"images/grannys_fruits.webp",
+            "name":"Grannys Dryfruits Healthy Nutmix|Fitness Trail Mix| Mixed Dryfruits |Premium Nutmix(500 grams) Almonds, Cashews, Cranberries, Amla, Walnuts, Kiwi, Kernels",
+            "brand":"lila dry fruits",
+            "discount":"81%",
+            "underline":"₹1,299",
+            "price":"₹244",
+            "rate":3.5,
+            "assure_src":"images/assurance.png"
+        },
+        {
+            "id":20,
+            "src":"images/natural_yard.webp",
+            "name":"NATURE YARD Organic Kalonji seed - 100% Natural for eating & hair growth Black Cumin Seeds",
+            "brand":"NATURE YARD",
+            "discount":"43%",
+            "underline":"₹249",
+            "price":"₹140",
+            "rate":4.5           
+        }
+    ]
+}

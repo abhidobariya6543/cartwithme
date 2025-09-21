@@ -1,0 +1,501 @@
+{
+    "fashion":[
+        {
+            "id":1,
+            "name":"Men's Top Wear",
+            "suboptions":[
+                {
+                    "id":1,
+                    "name":"All"
+                },
+                {
+                    "id":2,
+                    "name":"Men's T-Shirts"
+                },
+                {
+                    "id":3,
+                    "name":"Men's Casual Shirts"
+                },
+                {
+                    "id":4,
+                    "name":"Men's Formal Shirts"
+                },
+                {
+                    "id":5,
+                    "name":"Men's Kurtas"
+                },
+                {
+                    "id":6,
+                    "name":"Men's Ethnic Sets"
+                },
+                 {
+                    "id":7,
+                    "name":"Men's Blazers"
+                },
+                {
+                    "id":8,
+                    "name":"Men's Raincoat"
+                },
+                {
+                    "id":9,
+                    "name":"Men's Windcheaters"
+                },
+                {
+                    "id":10,
+                    "name":"Men's Suit"
+                },
+                {
+                    "id":11,
+                    "name":"Men's Fabrics"
+                }
+            ]
+        },
+        {
+            "id":2,
+            "name":" Men's Bottom Wear",
+            "suboptions":[
+                {
+                    "id":1,
+                    "name":"All"
+                },
+                {
+                    "id":2,
+                    "name":"Men's Jeans"
+                },
+                {
+                    "id":3,
+                    "name":"Men's Trousers"
+                },
+                {
+                    "id":4,
+                    "name":"Men's Trackpants"
+                },
+                {
+                    "id":5,
+                    "name":"Men's Shorts"
+                },
+                {
+                    "id":6,
+                    "name":"Men's Cargos"
+                },
+                 {
+                    "id":7,
+                    "name":"Men's Threefourths"
+                },
+                {
+                    "id":8,
+                    "name":"Men's Pyjamas & Loungepants"
+                },
+                {
+                    "id":9,
+                    "name":"Men's Dhoti"
+                },
+                {
+                    "id":10,
+                    "name":"Men's Ethnic Pyjama"
+                }
+            ]
+        },
+        {
+            "id":3,
+            "name":" Women Ethnic",
+            "suboptions":[
+                {
+                    "id":1,
+                    "name":"All"
+                },
+                {
+                    "id":2,
+                    "name":"Women Sarees"
+                },
+                {
+                    "id":3,
+                    "name":"Women Kurtas & Kurtis"
+                },
+                {
+                    "id":4,
+                    "name":"Women Kurta Sets & Salwar Suits"
+                },
+                {
+                    "id":5,
+                    "name":"Ethnic Dresses"
+                },
+                {
+                    "id":6,
+                    "name":"Women Dress Materials"
+                },
+                 {
+                    "id":7,
+                    "name":"Women Gowns"
+                },
+                {
+                    "id":8,
+                    "name":"Women Lehenga Cholis"
+                },
+                {
+                    "id":9,
+                    "name":"Women Leggings & Patialas"
+                },
+                {
+                    "id":10,
+                    "name":"Women Palazzos & Shararas"
+                },
+                {
+                    "id":11,
+                    "name":"Women Blouse"
+                }
+            ]
+        },
+        {
+            "id":4,
+            "name":" Men Footwear",
+            "suboptions":[
+                {
+                    "id":1,
+                    "name":"All"
+                },
+                {
+                    "id":2,
+                    "name":"Men's Sports Shoes"
+                },
+                {
+                    "id":3,
+                    "name":"Men's Casual Shoes"
+                },
+                {
+                    "id":4,
+                    "name":"Men's Sandals & Floaters"
+                },
+                {
+                    "id":5,
+                    "name":"Men's Slippers & Flip Flops"
+                },
+                {
+                    "id":6,
+                    "name":"Men's Formal Shoes"
+                },
+                 {
+                    "id":7,
+                    "name":"Men's Ethnic Shoes"
+                },
+                {
+                    "id":8,
+                    "name":"Shoe Care"
+                }
+            ]
+        },
+        {
+            "id":5,
+            "name":" Women Footwear",
+            "suboptions":[
+                {
+                    "id":1,
+                    "name":"All"
+                },
+                {
+                    "id":2,
+                    "name":"Men's T-Shirts"
+                },
+                {
+                    "id":3,
+                    "name":"Men's Casual Shirts"
+                },
+                {
+                    "id":4,
+                    "name":"Men's Formal Shirts"
+                },
+                {
+                    "id":5,
+                    "name":"Men's Kurtas"
+                },
+                {
+                    "id":6,
+                    "name":"Men's Ethnic Sets"
+                },
+                 {
+                    "id":7,
+                    "name":"Men's Blazers"
+                },
+                {
+                    "id":8,
+                    "name":"Men's Raincoat"
+                },
+                {
+                    "id":9,
+                    "name":"Men's Windcheaters"
+                },
+                {
+                    "id":10,
+                    "name":"Men's Suit"
+                },
+                {
+                    "id":11,
+                    "name":"Men's Fabrics"
+                }
+            ]
+        },
+        {
+            "id":6,
+            "name":"Watches and Accessories ",
+            "suboptions":[
+                {
+                    "id":1,
+                    "name":"Men & Women Watches"
+                },
+                {
+                    "id":2,
+                    "name":"Men & Women Sunglasses"
+                },
+                {
+                    "id":3,
+                    "name":"Wallets"
+                },
+                {
+                    "id":4,
+                    "name":"Precious Articles"
+                },
+                {
+                    "id":5,
+                    "name":"Men Fashion Jewellery"
+                },
+                {
+                    "id":6,
+                    "name":"Kids Accessories"
+                },
+                 {
+                    "id":7,
+                    "name":"Women Fashion Jewellery"
+                }
+            ]
+        },
+        {
+            "id":7,
+            "name":" Women Western",
+            "suboptions":[
+                {
+                    "id":1,
+                    "name":"All"
+                },
+                {
+                    "id":2,
+                    "name":"Men's T-Shirts"
+                },
+                {
+                    "id":3,
+                    "name":"Men's Casual Shirts"
+                },
+                {
+                    "id":4,
+                    "name":"Men's Formal Shirts"
+                },
+                {
+                    "id":5,
+                    "name":"Men's Kurtas"
+                },
+                {
+                    "id":6,
+                    "name":"Men's Ethnic Sets"
+                },
+                 {
+                    "id":7,
+                    "name":"Men's Blazers"
+                },
+                {
+                    "id":8,
+                    "name":"Men's Raincoat"
+                },
+                {
+                    "id":9,
+                    "name":"Men's Windcheaters"
+                },
+                {
+                    "id":10,
+                    "name":"Men's Suit"
+                },
+                {
+                    "id":11,
+                    "name":"Men's Fabrics"
+                }
+            ]
+        },
+        {
+            "id":8,
+            "name":"Bags, Suitcases & Luggage ",
+            "suboptions":[
+                {
+                    "id":1,
+                    "name":"All"
+                },
+                {
+                    "id":2,
+                    "name":"Men's T-Shirts"
+                },
+                {
+                    "id":3,
+                    "name":"Men's Casual Shirts"
+                },
+                {
+                    "id":4,
+                    "name":"Men's Formal Shirts"
+                },
+                {
+                    "id":5,
+                    "name":"Men's Kurtas"
+                },
+                {
+                    "id":6,
+                    "name":"Men's Ethnic Sets"
+                },
+                 {
+                    "id":7,
+                    "name":"Men's Blazers"
+                },
+                {
+                    "id":8,
+                    "name":"Men's Raincoat"
+                },
+                {
+                    "id":9,
+                    "name":"Men's Windcheaters"
+                },
+                {
+                    "id":10,
+                    "name":"Men's Suit"
+                }
+                
+            ]
+        },
+        {
+            "id":9,
+            "name":" Kids",
+            "suboptions":[
+                {
+                    "id":1,
+                    "name":"All"
+                },
+                {
+                    "id":2,
+                    "name":"Men's T-Shirts"
+                },
+                {
+                    "id":3,
+                    "name":"Men's Casual Shirts"
+                },
+                {
+                    "id":4,
+                    "name":"Men's Formal Shirts"
+                },
+                {
+                    "id":5,
+                    "name":"Men's Kurtas"
+                },
+                {
+                    "id":6,
+                    "name":"Men's Ethnic Sets"
+                },
+                 {
+                    "id":7,
+                    "name":"Men's Blazers"
+                },
+                {
+                    "id":8,
+                    "name":"Men's Raincoat"
+                },
+                {
+                    "id":9,
+                    "name":"Men's Windcheaters"
+                },
+                {
+                    "id":10,
+                    "name":"Men's Suit"
+                },
+                {
+                    "id":11,
+                    "name":"Men's Fabrics"
+                }
+            ]
+        },
+        {
+            "id":10,
+            "name":"Essentials",
+            "suboptions":[
+                {
+                    "id":1,
+                    "name":"All"
+                },
+                {
+                    "id":2,
+                    "name":"Men's T-Shirts"
+                },
+                {
+                    "id":3,
+                    "name":"Men's Casual Shirts"
+                },
+                {
+                    "id":4,
+                    "name":"Men's Formal Shirts"
+                },
+                {
+                    "id":5,
+                    "name":"Men's Kurtas"
+                },
+                {
+                    "id":6,
+                    "name":"Men's Ethnic Sets"
+                },
+                 {
+                    "id":7,
+                    "name":"Men's Blazers"
+                },
+                {
+                    "id":8,
+                    "name":"Men's Raincoat"
+                },
+                {
+                    "id":9,
+                    "name":"Men's Windcheaters"
+                }
+                
+            ]
+        },
+        {
+            "id":11,
+            "name":" Winter",
+            "suboptions":[
+                {
+                    "id":1,
+                    "name":"All"
+                },
+                {
+                    "id":2,
+                    "name":"Men's T-Shirts"
+                },
+                {
+                    "id":3,
+                    "name":"Men's Casual Shirts"
+                },
+                {
+                    "id":4,
+                    "name":"Men's Formal Shirts"
+                },
+                {
+                    "id":5,
+                    "name":"Men's Kurtas"
+                },
+                {
+                    "id":6,
+                    "name":"Men's Ethnic Sets"
+                },
+                 {
+                    "id":7,
+                    "name":"Men's Blazers"
+                },
+                {
+                    "id":8,
+                    "name":"Men's Raincoat"
+                }
+                
+            ]
+        }
+    ]
+}

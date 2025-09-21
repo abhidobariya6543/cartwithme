@@ -1,0 +1,353 @@
+.checkout_address_main {
+    background-color: #f1f3f6;
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+
+/* Header */
+.address_header {
+    background: white;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 1px solid #e0e0e0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.back_btn {
+    background: none;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.page_title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    color: #212121;
+}
+
+/* Progress Indicator */
+.progress_indicator {
+    background: white;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.progress_step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    position: relative;
+}
+
+.step_number {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #e0e0e0;
+    color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.progress_step.active .step_number {
+    background: #2874f0;
+    color: white;
+}
+
+.progress_step span {
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}
+
+.progress_step.active span {
+    color: #2874f0;
+    font-weight: 500;
+}
+
+.progress_line {
+    width: 40px;
+    height: 2px;
+    background: #e0e0e0;
+    margin: 0 8px;
+}
+
+/* Form */
+.address_form {
+    background: white;
+    margin: 16px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.form_group {
+    margin-bottom: 20px;
+}
+
+.form_group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #212121;
+    margin-bottom: 8px;
+}
+
+.form_group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #212121;
+    box-sizing: border-box;
+}
+
+.form_group input:focus {
+    outline: none;
+    border-color: #2874f0;
+    box-shadow: 0 0 0 2px rgba(40, 116, 240, 0.1);
+}
+
+.form_group input.error {
+    border-color: #ff6b6b;
+}
+
+.error_message {
+    display: block;
+    color: #ff6b6b;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.add_alternate_btn {
+    background: none;
+    border: none;
+    color: #2874f0;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 4px;
+    padding: 0;
+}
+
+.location_permission_warning {
+    background: #fff3cd;
+    border: 1px solid #ffeaa7;
+    color: #856404;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+
+.input_with_icon {
+    position: relative;
+}
+
+.input_with_icon .search_icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+    font-size: 16px;
+}
+
+.use_location_btn {
+    background: #2874f0;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.use_location_btn img {
+    width: 16px;
+    height: 16px;
+}
+
+.add_landmark_btn {
+    background: none;
+    border: none;
+    color: #2874f0;
+    font-size: 12px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+/* Address Type Section */
+.address_type_section {
+    margin-top: 24px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.address_type_section h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #212121;
+    margin: 0 0 16px 0;
+}
+
+.address_type_options {
+    display: flex;
+    gap: 12px;
+}
+
+.address_type_btn {
+    flex: 1;
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+.address_type_btn:hover {
+    border-color: #2874f0;
+}
+
+.address_type_btn.active {
+    border-color: #2874f0;
+    background: #f0f7ff;
+}
+
+.address_type_btn img {
+    width: 24px;
+    height: 24px;
+}
+
+.address_type_btn span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #212121;
+}
+
+.address_type_btn.active span {
+    color: #2874f0;
+}
+
+/* Save Address Section */
+.save_address_section {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    padding: 16px;
+    border-top: 1px solid #e0e0e0;
+    z-index: 100;
+}
+
+.save_address_btn {
+    width: 100%;
+    background: #ff6b35;
+    color: white;
+    border: none;
+    padding: 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.save_address_btn:hover {
+    background: #e55a2b;
+}
+
+.save_address_btn:active {
+    transform: translateY(1px);
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .address_form {
+        margin: 8px;
+        padding: 16px;
+    }
+    
+    .progress_indicator {
+        padding: 12px;
+    }
+    
+    .progress_step span {
+        font-size: 10px;
+    }
+    
+    .progress_line {
+        width: 20px;
+        margin: 0 4px;
+    }
+    
+    .address_type_options {
+        flex-direction: column;
+    }
+    
+    .address_type_btn {
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 12px;
+    }
+    
+    .save_address_section {
+        padding: 12px;
+    }
+}
+
+/* Animation for form validation */
+.form_group input.error {
+    animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+}
+
+/* Focus states */
+.form_group input:focus {
+    animation: none;
+}
+
+/* Loading state for location button */
+.use_location_btn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.use_location_btn:disabled img {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
