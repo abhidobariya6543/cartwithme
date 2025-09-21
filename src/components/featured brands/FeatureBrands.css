@@ -1,0 +1,99 @@
+.feature-main{
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    
+}
+.featurelap-element{
+        display: none;
+}
+.feature-main .feature-sbdiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.feature-main .heading{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.feature-main .heading-margin{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin: 16px 16px 0 16px;
+    font-family: var(--int-bold);
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+}
+.feature-main .feature-content{
+    background: linear-gradient(transparent, transparent);
+    margin: 12px 0;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+.feature-main .feature-div{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 360px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+    scroll-padding-inline-start: 16px;
+    overflow-x: auto;
+    /* overflow-y: hidden; */
+    /* padding: 0 4px 0 16px; */
+}
+.feature-main .feature-element a{
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    overflow: hidden;
+    margin: 0 16px;
+}
+@media screen and (min-width:768px){
+   .featurelap-element{
+        display: none;
+    }
+}
+@media screen and (min-width:1024px){
+    .feature-element{
+        display: none;
+    }
+    .feature-main{
+        margin-bottom: 16px;
+    }
+    .feature-main .feature-div{
+        grid-auto-columns: 460px;
+    }
+    .featurelap-element{
+        display: flex;
+    }
+    .feature-main .featurelap-element a{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        margin-left: 18px;
+        /* object-fit: contain; */
+       
+    }
+    .feature-main .featurelap-element img{
+        width: 100%;
+        height: 100%;
+    }
+    .feature-main .heading-margin{
+        margin: 0;
+        padding: 16px;
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: -0.1px;
+    }
+
+}
+
+

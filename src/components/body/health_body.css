@@ -1,0 +1,11 @@
+.health_body{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+.health_body_main{
+   min-width: 978px;
+   max-width: 1680px;
+   padding: 8px;
+   display: flex;
+}

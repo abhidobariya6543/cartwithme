@@ -1,0 +1,131 @@
+.product_main{
+    width: 100%;
+    height: 100%;
+    
+}
+.product_div{
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.left_product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 216px;
+    padding-bottom: 8px;
+    width:50%;
+    position: relative;     
+}
+.product_list{
+    display: flex;
+    flex-direction: column;
+}
+.left_product.border_left{
+    border-right:1px solid rgb(234, 234, 234); 
+}
+.product_img_div{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 176px;
+    width: 100%;  
+}
+.product_img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.product_details{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 4px 4px 8px 12px;
+    width: 100%;
+}
+.sponsor{
+    font-size: 10px;
+    color: rgb(184, 187, 191);
+    line-height: 16px;
+    font-family: var(--int-regu);
+    letter-spacing: 0.01px;
+}
+.product_name{
+    font-size: 14px;
+    font-family: var(--int-regu);
+    color: rgb(32, 34, 36);
+    letter-spacing: -0.01px;
+    line-height: 20px;
+    margin-bottom: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 100%;
+    margin-right: 8px;
+    margin-bottom: 4px;
+}
+.product_price{
+    display: flex;
+    align-items: center;
+}
+.discount_percent{
+    font-size: 14px;
+    color: rgb(0, 140, 0);
+    line-height: 20px;
+    font-family: var(--int-semi);
+    letter-spacing: -0.01px;
+}
+.discount{
+    margin-right: 4px;
+}
+.underline_text{
+    margin-right: 4px;
+    color: rgb(113, 116, 120);
+    text-decoration: line-through;
+    font-size: 14px;
+    font-family: var(--int-semi);
+    line-height: 20px;
+    letter-spacing: -0.01px;
+}
+.product_amount{
+    font-size: 14px;
+    font-family: var(--int-semi);
+    color: rgb(17, 17, 18);
+    line-height: 20px;
+    letter-spacing: -0.01px;
+}
+.hot_deal{
+    padding: 4px;
+    border-radius: 2px;
+    background-color: rgb(231, 248, 236);
+    margin-top: 6px;
+    font-size: 12px;
+    font-family: var(--int-roboto);
+    color:rgb(38, 165, 65) ;
+}
+.product_rate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rating{
+    margin:4px 0 6px 0;
+    padding-right: 2px;
+    padding-top: 4px;
+}
+.product_assure{
+    width: 60px;
+    height: 16px;
+}
+.assurance{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.product_like{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}

@@ -1,0 +1,152 @@
+.productLarge_main{
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card_main{          
+    width: 25%;
+}
+.card_div{
+    padding: 16px;
+    position: relative;  
+}
+.card_div:hover{
+    box-shadow: 0 3px 16px 0 rgba(0,0,0,.11);
+}
+.card_top{
+    position: relative;
+    margin-bottom: 5px;
+}
+.card_top_img{
+    height: 230px;
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+}
+.card_img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    opacity: 1;
+    max-width: 100%;
+    max-height: 100%;
+}
+.card_like_img{
+    position: absolute;
+    display: inline-block;
+    top: 12px;
+    right: 12px;
+}
+.card_sponsor{
+   font-size: 12px;
+   line-height: 14px;
+   border: 1px solid #fff;  
+}
+.card_name{
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+.card_name_text{
+    font-size: 14px;
+    font-family: var(--int-regu);
+    color: #212121;
+}
+.card_quantity{
+    padding-bottom: 12px;
+}
+.quantity_text{
+    font-size: 12px;
+    color: #878787;
+    font-family:var(--int-regu);
+}
+.card_rating{
+    display: inline-block;
+    padding-right: 10px;
+}
+.rating_text{
+    /* position: relative; */
+    line-height: normal;
+    display: inline-block;
+    color: #fff;
+    padding: 2px 4px 2px 6px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: var(--int-semi);
+    vertical-align: middle;
+    background-color: #388e3c;
+}
+.rating_star{
+    height: 10px;
+    margin: 2px 0 0 2px;
+}
+.rating_count{
+    padding-left: 8px;
+    font-size: 500;
+    color: #878787;
+    font-size: 14px;
+    font-family: var(--int-semi);
+}
+.card_assure{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+}
+.card_price_tag{
+    padding: 0 10px 0 0;
+    margin: 3px 0;
+}
+.card_price{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #212121;
+    font-family: var(--int-semi);
+}
+.card_price_overline{
+    display: inline-block;
+    margin-left: 8px;
+    font-size: 14px;
+    color: #878787;
+    text-decoration: line-through;
+    font-family: var(--int-semi);
+}
+.card_discount{
+    color: #388e3c;
+    font-family: var(--int-semi);
+    font-size: 13px;
+    letter-spacing: -0.2px;
+    display: inline-block;
+    margin-left: 8px;
+}
+.more_hover{
+    position: absolute;
+    box-shadow: 0 9px 16px 0 rgba(0,0,0,.11);
+    z-index: 1;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 16px;
+}
+.more_text{
+    color: #2874f0;
+    font-size: 12px;
+    font-family: var(--int-semi);
+}
+.clear_hover{
+    display: none;
+}
+.more_hover_img{
+    width: 12px;
+    height: 7px;
+    transform: rotate(180deg);
+}
+.more_quantity{
+    font-size: 14px;
+    font-family: var(--int-regu);
+    color: #212121;
+    line-height: 1.4;
+}

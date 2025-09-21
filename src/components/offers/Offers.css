@@ -1,0 +1,122 @@
+
+@media screen and (min-width:200px){
+    .offerone_main{
+        display: none;
+    }
+    .offertwo_main{
+        display: none;
+    }
+    .offerthree_main{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:768px){
+    .offerone_main{
+        display: none;
+    }
+    .offertwo_main{
+        display: none;
+    }
+    .offerthree_main{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1024px){
+.offerone_main{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    /* margin-top: 15px; */
+    margin-bottom: 16px;
+}
+.offerone_main .offerone_hddiv{
+     display: flex;
+     flex-direction: row;
+     /* margin-left: 15px; */
+     /* margin-right: 11px; */
+}
+.offerone_main .offerone_div{
+    max-width: 25%;
+}
+.offerone_main .offerone_img{
+    width: 100%;
+    height: 100%;
+}
+.offerone_main .offerone_img img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    aspect-ratio: 22 / 9;
+}
+.offertwo_main {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    /* margin-top: 15px; */
+    margin-bottom: 16px;
+    width: 100%;
+}
+.offertwo_main .offertwo_hddiv{
+    display: flex;
+    flex-direction: row;
+    align-items:stretch;
+    /* margin-left: 15px;
+    margin-right: 5px; */
+    background-color: #ffffff;
+    
+}
+.offertwo_main .offertwo_div{
+    max-width: 33.33333%;
+    margin-left: 4px;
+    margin-right: 4px;
+    width: 100%;
+   
+}
+.offertwo_main .offertwo_img{
+    width: 100%;
+    height: 100%;
+}
+.offertwo_main .offertwo_img img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    aspect-ratio: 41/22;
+}
+.offerthree_main{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    /* margin-top: 15px; */
+    margin-bottom: 16px;
+    width: 100%;
+    
+}
+.offerthree_main .offerthree_hddiv{
+    display: flex;
+    align-items: stretch;
+    height: auto;
+    /* margin-left: 15px;
+    margin-right: 5px; */
+    background-color: #ffffff;
+}
+.offerthree_main .offerthree_div{
+    max-width: 33.333%;
+    margin-left: 4px;
+    margin-right: 4px;
+    width: 100%;
+    
+}
+.offerthree_main .offerthree_img{
+    width: 100%;
+    height: 100%;
+}
+.offerthree_main .offerthree_img img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    aspect-ratio: 41/22;
+}
+}

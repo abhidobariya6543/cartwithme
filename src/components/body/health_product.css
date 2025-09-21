@@ -1,0 +1,83 @@
+.health_product_main{
+    display: flex;
+    flex-direction: column;
+}
+.health_product_div{
+    background-color: rgb(255, 255, 255);
+    padding: 12px 16px 0;
+    border-bottom: 1px solid #f0f0f0;
+    height: auto;
+    min-height: 72px;
+}
+.each_page{
+    display: inline-block;
+}
+.home_text{
+    max-width: 80px;
+    display: inline-block;
+    font-size: 12px;
+    color: #878787;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.arrow_left{
+    height: 7px;
+    width: 20px;
+    transform: rotate(180deg);
+    vertical-align: middle;        
+}
+.arrow_display{
+    display: none;
+}
+.health_product_details{
+    padding: 12px 5px 4px 0;
+    color: #878787;
+    width: 100%;
+    vertical-align: top;
+    line-height: 1.45;
+    font-family:  Inter, -apple-system, Helvetica, Arial, sans-serif;;
+}
+.detailed_para{
+    font-size: 12px;
+    line-height: 1.45;
+    color: #878787;
+}
+.health_product_head{
+    font-weight: 500;
+    font-size: 16px;
+    font-family: var(--int-semi);
+    margin-top: 8px;
+    display: inline-block;
+}
+.health_product_span{
+    display: inline-block;
+    margin-left: 10px;
+    color: #878787;
+    font-size: 12px;
+}
+.health_product_sort{
+    display: flex;
+}
+.health_sort_text{
+    font-size: 14px;
+    font-family: var(--int-semi);
+    border-bottom: 2px solid transparent;
+    display: inline-block;
+    font-weight: 500;
+    padding: 8px 10px 4px 0;
+}
+.popularity_text{
+    font-size: 14px;
+    color:#212121;  
+    padding: 8px 0 4px;
+    margin: 0 10px;
+    font-family: var(--int-regu); 
+    border-bottom: 2px solid transparent;
+}
+.text_active{
+    color: #2874f0;
+    border-bottom: 2px solid #2874f0;
+    font-weight: 600;
+}
